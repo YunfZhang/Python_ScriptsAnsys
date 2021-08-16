@@ -1,0 +1,125 @@
+{
+    "doc_id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/_m7q2YulcEeui78les-BZIw",
+    "actions": [
+        {
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae11"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827a12"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae13"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae14"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae15"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae16"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae17"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae18"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae19"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae20"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae01"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827a02"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae03"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae04"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae05"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae06"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae07"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae08"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae09"
+            }
+        },
+		{
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827ae10"
+            }
+        }
+    ]
+}

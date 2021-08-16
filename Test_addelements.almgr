@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scade_req:ReqProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scade_req="http://www.ansys.com/scade/lifecycle/almgateway/scade_req/2" id="_A01N8PqOEeuVBMwR-fF8HQ">
+  <documents xsi:type="scade_req:Specification" id="_A01N8fqOEeuVBMwR-fF8HQ" name="7111: REQS_DX" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/_Evfaca0hEemGbaLcgS1pXg">
+    <children xsi:type="scade_req:Section" id="_A01N8vqOEeuVBMwR-fF8HQ" name="1 REQ_1" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_2e91a4f86960430e9fa1f5ef36196970" description=""/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_A01N8_qOEeuVBMwR-fF8HQ" traceableElement="_A01OD_qOEeuVBMwR-fF8HQ">
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N9PqOEeuVBMwR-fF8HQ" traceableElement="_A01OEPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N9fqOEeuVBMwR-fF8HQ" traceableElement="_A01OEfqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N9vqOEeuVBMwR-fF8HQ" traceableElement="_A01OEvqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N9_qOEeuVBMwR-fF8HQ" traceableElement="_A01OE_qOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N-PqOEeuVBMwR-fF8HQ" traceableElement="_A01OFPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N-fqOEeuVBMwR-fF8HQ" traceableElement="_A01OFfqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N-vqOEeuVBMwR-fF8HQ" traceableElement="_A01OFvqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N-_qOEeuVBMwR-fF8HQ" traceableElement="_A01OF_qOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N_PqOEeuVBMwR-fF8HQ" traceableElement="_A01OGPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N_fqOEeuVBMwR-fF8HQ" traceableElement="_A01OGfqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N_vqOEeuVBMwR-fF8HQ" traceableElement="_A01OGvqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01N__qOEeuVBMwR-fF8HQ" traceableElement="_A01OG_qOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OAPqOEeuVBMwR-fF8HQ" traceableElement="_A01OHPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OAfqOEeuVBMwR-fF8HQ" traceableElement="_A01OHfqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OAvqOEeuVBMwR-fF8HQ" traceableElement="_A01OHvqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OA_qOEeuVBMwR-fF8HQ" traceableElement="_A01OH_qOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OBPqOEeuVBMwR-fF8HQ" traceableElement="_A01OIPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OBfqOEeuVBMwR-fF8HQ" traceableElement="_A01OIfqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OBvqOEeuVBMwR-fF8HQ" traceableElement="_A01OIvqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OB_qOEeuVBMwR-fF8HQ" traceableElement="_A01OI_qOEeuVBMwR-fF8HQ"/>
+    </children>
+    <children xsi:type="scade_req:TraceableElementRef" id="_A01OCPqOEeuVBMwR-fF8HQ" traceableElement="_A01OJPqOEeuVBMwR-fF8HQ">
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01OCfqOEeuVBMwR-fF8HQ" traceableElement="_A01OJfqOEeuVBMwR-fF8HQ">
+        <children xsi:type="scade_req:TraceableElementRef" id="_A01OCvqOEeuVBMwR-fF8HQ" traceableElement="_A01OJvqOEeuVBMwR-fF8HQ"/>
+      </children>
+    </children>
+    <children xsi:type="scade_req:TraceableElementRef" id="_A01OC_qOEeuVBMwR-fF8HQ" traceableElement="_A01OJ_qOEeuVBMwR-fF8HQ">
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01ODPqOEeuVBMwR-fF8HQ" traceableElement="_A01OKPqOEeuVBMwR-fF8HQ"/>
+      <children xsi:type="scade_req:TraceableElementRef" id="_A01ODfqOEeuVBMwR-fF8HQ" traceableElement="_A01OKfqOEeuVBMwR-fF8HQ"/>
+    </children>
+    <children xsi:type="scade_req:TraceableElementRef" id="_A01ODvqOEeuVBMwR-fF8HQ" traceableElement="_A01OKvqOEeuVBMwR-fF8HQ"/>
+  </documents>
+  <traceableElements id="_A01OD_qOEeuVBMwR-fF8HQ" name="7117" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_0dda92094e414cab8fad0a09ff06a5e3" description="req_6"/>
+  <traceableElements id="_A01OEPqOEeuVBMwR-fF8HQ" name="141466" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_5da70450dcc04cc9a6149b9d301dd38a" description="child_req"/>
+  <traceableElements id="_A01OEfqOEeuVBMwR-fF8HQ" name="141467" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_011aa0dd94f8412da1b9b949999a13aa" description="child_req2"/>
+  <traceableElements id="_A01OEvqOEeuVBMwR-fF8HQ" name="141468" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_7aaf301627f844c5b86a590ca184a70d" description="child_req3"/>
+  <traceableElements id="_A01OE_qOEeuVBMwR-fF8HQ" name="141469" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_2b1433ff813d4da5afa2f02dea181742" description="child_req4"/>
+  <traceableElements id="_A01OFPqOEeuVBMwR-fF8HQ" name="141470" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_a6323e379f594d2284de598624e33316" description="child_req5"/>
+  <traceableElements id="_A01OFfqOEeuVBMwR-fF8HQ" name="141471" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_6e14f11539e04647be667aa545b0dfdb" description="child_req6"/>
+  <traceableElements id="_A01OFvqOEeuVBMwR-fF8HQ" name="141472" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_ad71aa2f91834e569106e9804d80da41" description="child_req7"/>
+  <traceableElements id="_A01OF_qOEeuVBMwR-fF8HQ" name="141473" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_e4bc7433774d4103ac13856c1315c585" description="child_req8"/>
+  <traceableElements id="_A01OGPqOEeuVBMwR-fF8HQ" name="141474" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_2335c1fe553a4a02b88a93fe9bacf6c5" description="child_req9"/>
+  <traceableElements id="_A01OGfqOEeuVBMwR-fF8HQ" name="141475" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_1906a91a0b25448ab0221d92202c58c2" description="child_req10"/>
+  <traceableElements id="_A01OGvqOEeuVBMwR-fF8HQ" name="141476" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_3bd2fe4b0c894ac98d8bc4f14ef15ab3" description="child_req11"/>
+  <traceableElements id="_A01OG_qOEeuVBMwR-fF8HQ" name="141477" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_a092dafd42f844298a2714cdef4e9e40" description="child_req12"/>
+  <traceableElements id="_A01OHPqOEeuVBMwR-fF8HQ" name="141478" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_132aa11dd1d3435882fe41597209dc6c" description="child_req13"/>
+  <traceableElements id="_A01OHfqOEeuVBMwR-fF8HQ" name="141479" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_43d6c6be53204460be6b8776dc0802e3" description="child_req14"/>
+  <traceableElements id="_A01OHvqOEeuVBMwR-fF8HQ" name="141480" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_39f00cbe8dae412e9363c9520784862b" description="child_req15"/>
+  <traceableElements id="_A01OH_qOEeuVBMwR-fF8HQ" name="141481" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_8d89e9fcb6224c5f8ad76f475aa41dc1" description="child_req16"/>
+  <traceableElements id="_A01OIPqOEeuVBMwR-fF8HQ" name="141482" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_5755c4f5751f4b7c9369540c996c589d" description="child_req17"/>
+  <traceableElements id="_A01OIfqOEeuVBMwR-fF8HQ" name="141483" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_758e1fccebe84b5e81f9d9bba23aa06c" description="child_req18"/>
+  <traceableElements id="_A01OIvqOEeuVBMwR-fF8HQ" name="141484" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_86ffa51ff87e4e7aaa447c4199ca17a7" description="child_req19"/>
+  <traceableElements id="_A01OI_qOEeuVBMwR-fF8HQ" name="141485" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_6bf5e6b3e8884dba9b6a06cccd13ee9d" description="child_req20"/>
+  <traceableElements id="_A01OJPqOEeuVBMwR-fF8HQ" name="7114" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_04cf7adc69814aabacfd77369397caf8" description="req_3"/>
+  <traceableElements id="_A01OJfqOEeuVBMwR-fF8HQ" name="7120" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_34623b28bb0b4e2a88b4662e1e500d1f" description="req_9"/>
+  <traceableElements id="_A01OJvqOEeuVBMwR-fF8HQ" name="7126" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_aab778007ee147ff9339b6c0d4755f17" description="req_15"/>
+  <traceableElements id="_A01OJ_qOEeuVBMwR-fF8HQ" name="7119" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_a74c494abdd64cc7a45f9878865a615e" description="req_8"/>
+  <traceableElements id="_A01OKPqOEeuVBMwR-fF8HQ" name="7125" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_2a96d03b9b7f4ebcb91d5e529921d588" description="req_14"/>
+  <traceableElements id="_A01OKfqOEeuVBMwR-fF8HQ" name="7124" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_5b4947b940224581be8ae7dec05b4ec2" description="req_13"/>
+  <traceableElements id="_A01OKvqOEeuVBMwR-fF8HQ" name="7123" identifier="https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_49066e301710451c9f77214e82ea3710" description="req_12"/>
+</scade_req:ReqProject>

@@ -1,0 +1,23 @@
+{
+  "doc_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/_Evfaca0hEemGbaLcgS1pXg",
+  "actions": [
+    {
+      "type": "REMOVE",
+      "element": {
+        "id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_5da70450dcc04cc9a6149b9d301dd38a"
+      }
+    },
+    {
+      "type": "REMOVE",
+      "element": {
+        "id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_011aa0dd94f8412da1b9b949999a13aa"
+      }
+    },
+    {
+      "type": "REMOVE",
+      "element": {
+        "id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_7aaf301627f844c5b86a590ca184a70d"
+      }
+    }
+  ]
+}

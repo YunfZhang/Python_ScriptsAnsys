@@ -1,0 +1,13 @@
+{
+    "doc_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/_Evfaca0hEemGbaLcgS1pXg",
+    "actions": [
+    {%- for url in urls %}
+      {
+        "type": "REMOVE",
+        "element": {
+          "id": "{{ url }}"
+        }
+      }{% if not loop.last %}, {% endif %}
+    {%- endfor -%}
+    ]
+  }

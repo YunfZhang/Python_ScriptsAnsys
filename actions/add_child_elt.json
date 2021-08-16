@@ -1,0 +1,12 @@
+{
+    "doc_id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/_m7q2YulcEeui78les-BZIw",
+    "actions": [
+        {
+            "type": "ADD",
+            "parent_id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_abbbd049af184c7e982cae3f02b419b5",
+            "element": {
+                "name": "child_req"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "doc_id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/_m7q2YulcEeui78les-BZIw",
+    "actions": [
+        {
+            "type": "REMOVE",
+            "element": {
+                "id": "https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_ffdd81510eee48a4a05149e81827aec9"
+            }
+        }
+    ]
+}

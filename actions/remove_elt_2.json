@@ -1,0 +1,11 @@
+{
+    "doc_id": "http://nicplr2.win.ansys.com/document/Reqs?project=almg_auto2&amp;folder=_default",
+    "actions": [
+        {
+            "type": "REMOVE",
+            "element": {
+                "id": "http://nicplr2.win.ansys.com/workitem/ALMG_valid-107866?project=almg_valid"
+            }
+        }
+    ]
+}

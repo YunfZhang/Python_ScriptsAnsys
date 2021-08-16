@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scade_req:ReqProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scade_req="http://www.ansys.com/scade/lifecycle/almgateway/scade_req/2" id="_HEDcMOlqEeuea91w0lscvA">
+  <documents xsi:type="scade_req:Specification" id="_HEDcMelqEeuea91w0lscvA" name="16367: Reqs" identifier="https://nicw2012doors.win.ansys.com:9443/rm/resources/_m7q2YulcEeui78les-BZIw">
+    <children xsi:type="scade_req:TraceableElementRef" id="_HEDcMulqEeuea91w0lscvA" traceableElement="_HEDcNOlqEeuea91w0lscvA"/>
+    <children xsi:type="scade_req:TraceableElementRef" id="_HEDcM-lqEeuea91w0lscvA" traceableElement="_HEDcNelqEeuea91w0lscvA"/>
+  </documents>
+  <traceableElements id="_HEDcNOlqEeuea91w0lscvA" name="16368" identifier="https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_abbbd049af184c7e982cae3f02b419b5" description="req1"/>
+  <traceableElements id="_HEDcNelqEeuea91w0lscvA" name="16369" identifier="https://nicw2012doors.win.ansys.com:9443/rm/resources/MB_3affacb9b7f74dca85f96c1851d5ad09" description="req2"/>
+</scade_req:ReqProject>

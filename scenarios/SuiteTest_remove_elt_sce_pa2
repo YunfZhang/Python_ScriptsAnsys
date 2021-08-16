@@ -1,0 +1,2 @@
+{		"cmd":"modifydocument",		"arg":{		    "scade_project_path":"C:\\tmp\\Test_addelements\\Test_addelements\\Test_addelements.etp",		    "actions_path":"C:\\Users\\yunfzhan\\Downloads\\modify_document\\actions\\remove_elt_2.json"		}	    }
+{"value":"1","message":""}

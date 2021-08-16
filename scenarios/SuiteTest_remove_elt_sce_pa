@@ -1,0 +1,2 @@
+{		"cmd":"modifydocument",		"arg":{		    "scade_project_path":"C:\\TEST_LIFECYCLE\\TESTS\\trunk\\Gateways\\ALMGW_Suite\\Native\\PerformanceExport_100Objs\\PerformanceExport_100Objs.etp",		    "actions_path":"C:\\Users\\yunfzhan\\Downloads\\modify_document\\actions\\remove_elt_1.json"		}	    }
+{"value":"1","message":""}
