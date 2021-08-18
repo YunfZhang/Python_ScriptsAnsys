@@ -1,0 +1,21 @@
+
+Minor PRs:
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.3') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='SCADE A661') and ((product_subsys='Installation') or  (product_subsys='Widget Library') or (product_subsys='User Documentation'))) and ((severity='Minor'))
+
+Medium PRs
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.3') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation'))) and ((severity='Medium'))
+
+Hight PRs
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.3') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation'))) and ((severity='Showstopper') or (severity='Severe'))
+
+All PRS
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.3') and (crstatus!='PR_duplicate') and (crstatus!='PR_closed_by_CR') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation'))) 
+
+all open CRs
+(cvtype='problem') and (crstatus!='CR_concluded') and (crstatus!='CR_tested') and (crstatus!='CR_duplicate') and (crstatus!='CR_rejected') and (crstatus!='CR_deferred') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation')))
+
+Integration PRs:
+(cvtype='problem') and (crstatus ='PR_integrated') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation')))
+
+Integration CRs:
+(cvtype='problem') and (crstatus ='CR_integrated') and ((product_name='SCADE A661') and ((product_subsys='Installation') or (product_subsys='Widget Library') or (product_subsys='User Documentation')))

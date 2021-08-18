@@ -1,0 +1,12 @@
+Database, ID, Level, Product, Status, Synopsis
+
+PR_DISPLAY_KCG,PR-395,4,OGLX,Rendering,KCG_integrated,OGLX: Adjustment of stroke fonts does not take into account ratio 
+PR_DISPLAY_KCG,PR-408,5,OGLX,Functionality,KCG_integrated,Number of texture coordinates is not checked by OGLX 
+PR_DISPLAY_KCG,PR-492,1,OGLX,Functionality,KCG_in_review,OGLX: The first parameter is wrong for glStencilFunc if only one stencil is applied and 2 clipboxes visible inside 
+PR_DISPLAY_KCG,PR-493,3,OGLX,Functionality,KCG_entered,OGLX: an error is raised but shall not be raised when there is a sgluWriteText inside a sglBegin/sglEnd 
+
+CR_DISPLAY_KCG,CR-451,4,OGLX,Rendering,CR_KCG_integrated,Bad rendering of consecutive bi-font 
+CR_DISPLAY_KCG,CR-507,3,OGLX,Rendering,CR_KCG_integrated,Incorrect OpenGL commands when setting the rawlinemode to 1 
+CR_DISPLAY_KCG,CR-509,2,OGLX,Rendering,CR_KCG_integrated,OGLX: A clip box does not work if it is followed by a rotation 
+CR_DISPLAY_KCG,CR-518,3,OGLX,Rendering,CR_KCG_for_analysis,Loss of polygon smooth when a rectangle is drawn after a line 
+

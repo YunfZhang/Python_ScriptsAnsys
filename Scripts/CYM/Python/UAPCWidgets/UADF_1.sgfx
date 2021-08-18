@@ -1,0 +1,2773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<specification>
+    <IDE>
+        <project path="UAPCWidgets.etp"/>
+        <ratio horizontal="1" vertical="1"/>
+    </IDE>
+    <symbology>
+        <dimension height="1024" width="1024"/>
+    </symbology>
+    <A661 library_version="1" supp_version="6">
+        <intprop name="ApplicationId">1</intprop>
+    </A661>
+    <children>
+        <A661Layer name="a661_layer" oid="c17268f9-afb0-43e5-96e5-1203bb680155">
+            <IDE>
+                <ratio horizontal="20" vertical="20"/>
+            </IDE>
+            <model>
+                <intprop name="LayerId">1</intprop>
+                <intprop name="ContextNumber">0</intprop>
+                <intprop name="Width">20480</intprop>
+                <intprop name="Height">20480</intprop>
+            </model>
+            <runtime/>
+            <events/>
+            <children>
+                <widget name="BasicContainer_CursorOver" oid="758af7ac-5bf7-47cc-8640-cc4b5eab1eac" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">1</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1740</intprop>
+                        <intprop name="PosY">16920</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_CursorOver" oid="a50e6a46-ba8d-43c7-8f81-df3462c90295" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">2</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">-20</intprop>
+                                <intprop name="SizeX">3860</intprop>
+                                <intprop name="SizeY">1900</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="78b1336c-55a0-4b2b-8f2f-2444c2d0704a" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">3</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1020</intprop>
+                                <intprop name="PosY">170</intprop>
+                                <intprop name="SizeX">2140</intprop>
+                                <intprop name="SizeY">610</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">CursorOver</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle_Pos" oid="d215f2cf-f544-49e5-b4cc-86b6289d1986" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">4</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">200</intprop>
+                                <intprop name="PosY">160</intprop>
+                                <intprop name="SizeX">3180</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">9</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="CursorOver" oid="57cd1081-abf9-46ce-9e37-090e11a4d7a6" type="CursorOver">
+                            <model>
+                                <intprop name="WidgetIdent">5</intprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <intprop name="PosX">200</intprop>
+                                <intprop name="PosY">160</intprop>
+                                <intprop name="SizeX">3180</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">0</intprop>
+                                <enumprop name="PositionReportMode">A661_REPORT_ON_TRANSITION</enumprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="17e044cc-ea65-4806-a87a-bc314b795aed" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">6</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">1070</intprop>
+                                <intprop name="SizeX">3380</intprop>
+                                <intprop name="SizeY">590</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">CursorPosOverlay</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="CursorPosOverlay" oid="ed7f6016-7069-4603-8cf3-f348bd6384fd" type="CursorPosOverlay">
+                            <model>
+                                <intprop name="WidgetIdent">7</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <intprop name="PosX">200</intprop>
+                                <intprop name="PosY">1040</intprop>
+                                <intprop name="SizeX">3500</intprop>
+                                <intprop name="SizeY">620</intprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle_Pos" oid="33d8c39b-600d-4554-8138-d9a7f045534c" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">8</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">200</intprop>
+                                <intprop name="PosY">1040</intprop>
+                                <intprop name="SizeX">3500</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">9</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_ActiveArea" oid="4ef4ff21-119e-4aeb-b351-6bc1401e5a5e" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">9</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">5960</intprop>
+                        <intprop name="PosY">17040</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_ActiveArea" oid="566f9372-a50c-43d6-90cb-44aa8daeb404" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">10</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">-20</intprop>
+                                <intprop name="SizeX">3040</intprop>
+                                <intprop name="SizeY">1740</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="29f3d190-3c55-41a6-819d-bdd57911472d" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">11</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">1070</intprop>
+                                <intprop name="SizeX">2780</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">ActiveArea</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="ActiveArea" oid="5aed3210-a95f-4fd0-b024-f5907cb6d21e" type="ActiveArea">
+                            <comment>ActiveArea widget is used to test the appearance properties of widget during runtime</comment>
+                            <model>
+                                <intprop name="WidgetIdent">12</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">140</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle_Pos" oid="575a4979-d57d-4446-8a73-1a1aea962478" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">13</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">140</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">9</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_MapHorz_MapVert_ItemList" oid="60fbd689-37de-41d3-a598-392fd7289539" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">14</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">6700</intprop>
+                        <intprop name="PosY">6220</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_MapHorz_MapVert_ItemList" oid="57c35eba-95ec-4326-82d8-bfe375a39dba" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">15</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">80</intprop>
+                                <intprop name="SizeX">10260</intprop>
+                                <intprop name="SizeY">5060</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="ffdeefe5-1e91-49a1-91bf-d51df66d2246" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">16</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1140</intprop>
+                                <intprop name="PosY">4390</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MapHorz_ItemList</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="fc92a4d8-03ee-4018-b217-12ab6dc47269" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">17</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">6240</intprop>
+                                <intprop name="PosY">4230</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MapVert_ItemList</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="9b063e99-f00a-42e9-bc3c-7c12d10018b7" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">18</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">20</intprop>
+                                <intprop name="PosY">120</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">4000</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">0</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="MapHorz" oid="92d7298c-385d-4d05-96e4-8eb1179cf615" type="MapHorz">
+                            <model>
+                                <intprop name="WidgetIdent">19</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">20</intprop>
+                                <intprop name="PosY">120</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">4000</intprop>
+                                <intprop name="ScreenReferencePointX">0</intprop>
+                                <intprop name="ScreenReferencePointY">0</intprop>
+                                <intprop name="Range">100</intprop>
+                                <intprop name="ScreenRange">100</intprop>
+                                <intprop name="ProjectionType">1</intprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children>
+                                <widget name="MapHorz_Source" oid="b7426f72-1d1f-4244-8d9b-9f7b08a81e4a" type="MapHorz_Source">
+                                    <model>
+                                        <intprop name="WidgetIdent">20</intprop>
+                                        <enumprop name="Enable">A661_TRUE</enumprop>
+                                        <enumprop name="Visible">A661_TRUE</enumprop>
+                                        <enumprop name="MapDataFormat">A661_MDF_DIST_DIST</enumprop>
+                                        <enumprop name="EventFlag">A661_VALIDATION</enumprop>
+                                    </model>
+                                    <runtime/>
+                                    <events/>
+                                    <children>
+                                        <widget name="MapHorz_ItemList_Basic01" oid="251de00a-6eda-4942-bb6a-57fed70417f9" type="MapHorz_ItemList">
+                                            <comment>The MapHorz_ItemList widget is used to test the appearance properties of widget during runtime</comment>
+                                            <model>
+                                                <intprop name="WidgetIdent">21</intprop>
+                                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                                <intprop name="MaxNumberOfItem">25</intprop>
+                                            </model>
+                                            <runtime/>
+                                            <events/>
+                                            <children/>
+                                        </widget>
+                                    </children>
+                                </widget>
+                            </children>
+                        </widget>
+                        <widget name="GpRectangle" oid="dd6e896f-082a-4e62-bea1-797aee3a63d3" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">22</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">5200</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">4000</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">0</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="MapVert" oid="32e9ca54-59c5-4a39-9cb2-51f738511462" type="MapVert">
+                            <model>
+                                <intprop name="WidgetIdent">23</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">5200</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">4000</intprop>
+                                <intprop name="RangeX">100</intprop>
+                                <intprop name="RangeY">100</intprop>
+                                <intprop name="RefPosX">100</intprop>
+                                <intprop name="RefPosY">100</intprop>
+                                <intprop name="RefGeoPosX">100</intprop>
+                                <intprop name="RefGeoPosY">100</intprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children>
+                                <widget name="MapVert_Source" oid="937fd0f4-5c0c-4fc4-8fed-db38fe2d55d8" type="MapVert_Source">
+                                    <model>
+                                        <intprop name="WidgetIdent">24</intprop>
+                                        <enumprop name="Enable">A661_TRUE</enumprop>
+                                        <enumprop name="Visible">A661_TRUE</enumprop>
+                                        <enumprop name="MapDataFormatX">A661_MDF_ABSOLUTE</enumprop>
+                                        <enumprop name="MapDataFormatY">A661_MDF_ABSOLUTE</enumprop>
+                                        <enumprop name="EventFlag">A661_TRUE</enumprop>
+                                    </model>
+                                    <runtime/>
+                                    <events/>
+                                    <children>
+                                        <widget name="MapVert_ItemList_Basic01" oid="f2bb8600-95ac-4b4d-bb03-36bcf8fbe2cc" type="MapVert_ItemList">
+                                            <comment>The MapVert_ItemList widget is used to test the appearance properties of widget during runtime</comment>
+                                            <model>
+                                                <intprop name="WidgetIdent">25</intprop>
+                                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                                <intprop name="MaxNumberOfItem">25</intprop>
+                                            </model>
+                                            <runtime/>
+                                            <events/>
+                                            <children/>
+                                        </widget>
+                                    </children>
+                                </widget>
+                            </children>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_Buttons" oid="9baf35a0-6c39-4bf1-82ac-0313b9b636d7" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">26</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">10040</intprop>
+                        <intprop name="PosY">14733</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_Buttons" oid="393f6769-bb17-450f-95ef-d59d8d8a148f" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">27</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-80</intprop>
+                                <intprop name="PosY">-2340</intprop>
+                                <intprop name="SizeX">7300</intprop>
+                                <intprop name="SizeY">6447</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="PushButton_Basic01" oid="c677d671-23c8-410b-a059-27f8c2e9c380" type="PushButton">
+                            <model>
+                                <intprop name="WidgetIdent">28</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">3480</intprop>
+                                <intprop name="PosY">1840</intprop>
+                                <intprop name="SizeX">3440</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">21</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_TRUE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">PushButton</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="PicturePushButton_Basic01" oid="3f5876f1-d92c-4cc0-82c8-1c0f7a1cbd9a" type="PicturePushButton">
+                            <comment>The PicturePushButton widget is used to test all runtime parameters.</comment>
+                            <model>
+                                <intprop name="WidgetIdent">29</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">120</intprop>
+                                <intprop name="PosY">820</intprop>
+                                <intprop name="SizeX">5400</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">112</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="PictureReference">1</intprop>
+                                <intprop name="MaxStringLength">20</intprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">PicturePushButton</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ToggleButton" oid="934a8d65-206c-444f-bfd2-cc11ed6bc812" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">30</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">1827</intprop>
+                                <intprop name="SizeX">3260</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">ToggleButton</stringprop>
+                                <stringprop name="AlternateLabelString">LabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="SymbolPushButton_Basic01" oid="5e9d56ad-2493-404f-a3e2-faf0a5987531" type="SymbolPushButton">
+                            <comment>The SymbolPushButton widget is used to test all runtime parameters.</comment>
+                            <model>
+                                <intprop name="WidgetIdent">31</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">80</intprop>
+                                <intprop name="PosY">-180</intprop>
+                                <intprop name="SizeX">5220</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">135</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="SymbolReference">1</intprop>
+                                <intprop name="MaxStringLength">20</intprop>
+                                <enumprop name="SymbolPosition">A661_RIGHT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">SymbolPushButton</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="SymbolToggleButton" oid="7312e11e-b129-4645-b9f1-0ce787347e80" type="SymbolToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">32</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">100</intprop>
+                                <intprop name="PosY">-1180</intprop>
+                                <intprop name="SizeX">5380</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <intprop name="SymbolReference">1</intprop>
+                                <intprop name="AlternateSymbolReference">1</intprop>
+                                <enumprop name="SymbolPosition">A661_LEFT</enumprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">SymbolToggleButton</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="PictureToggleButton" oid="50f269c2-c8bd-4041-83fd-e28ab1a84ec5" type="PictureToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">33</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">80</intprop>
+                                <intprop name="PosY">-2173</intprop>
+                                <intprop name="SizeX">5520</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <intprop name="PictureReference">1</intprop>
+                                <intprop name="AlternatePictureReference">1</intprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">PictureToggleButton</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="CheckButton" oid="ce9e6145-0781-45be-a620-4439629e0ad3" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">34</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">2927</intprop>
+                                <intprop name="SizeX">3480</intprop>
+                                <intprop name="SizeY">780</intprop>
+                                <intprop name="StyleSet">120</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">CheckButton</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_Symbol" oid="34309258-f810-4632-b304-2cff1542f234" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">35</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1760</intprop>
+                        <intprop name="PosY">14260</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_Symbol" oid="9f94dc7a-ab1b-4fde-9461-24780e80564a" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">36</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">60</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="SizeX">3740</intprop>
+                                <intprop name="SizeY">2160</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="e77e33e2-ced5-42fa-b8f8-761302107586" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">37</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">1560</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">SymbolAnimated</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="7100bf1d-db5e-4733-9b92-1b849af19a9d" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">38</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">220</intprop>
+                                <intprop name="PosY">1020</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">Symbol</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Symbol" oid="99ab63b9-bc1a-4fb7-933a-29eb7e16345b" type="Symbol">
+                            <model>
+                                <intprop name="WidgetIdent">39</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1640</intprop>
+                                <intprop name="PosY">780</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="SymbolReference">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Symbol" oid="f270199e-d361-4bcc-bacf-9fef16be8b68" type="Symbol">
+                            <model>
+                                <intprop name="WidgetIdent">40</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2520</intprop>
+                                <intprop name="PosY">740</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">20</intprop>
+                                <intprop name="SymbolReference">2</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Symbol" oid="8847ada3-cbb0-4866-9fd4-97e0772af2a9" type="Symbol">
+                            <model>
+                                <intprop name="WidgetIdent">41</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">3360</intprop>
+                                <intprop name="PosY">740</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">2</intprop>
+                                <intprop name="SymbolReference">2</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="SymbolAnimated" oid="e6b67308-1f66-4a32-9373-07454f4c4ce6" type="SymbolAnimated">
+                            <model>
+                                <intprop name="WidgetIdent">42</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">720</intprop>
+                                <intprop name="PosY">660</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="LoopType">A661_LOOP_FORWARD_AND_RESET</enumprop>
+                                <intprop name="NumberOfSymbols">3</intprop>
+                                <intprop name="IndexOfFrequency">10</intprop>
+                                <enumprop name="AnimationType">A661_RUN</enumprop>
+                                <arrayprop name="SymbolArray">
+                                    <intprop name="1">1</intprop>
+                                    <intprop name="2">2</intprop>
+                                    <intprop name="3">3</intprop>
+                                </arrayprop>
+                                <arrayprop name="OrientationArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="MovementXArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="MovementYArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_EditBox" oid="f3df5a11-fff6-4294-8207-eae350adee68" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">43</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">5660</intprop>
+                        <intprop name="PosY">13940</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround_EditBox" oid="8f43c6e6-e38a-4410-9c6e-daa4152368c0" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">44</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">0</intprop>
+                                <intprop name="PosY">-2580</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">5580</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="EditBoxText" oid="f332fed5-c92a-478d-8bcd-6822ab3d70ea" type="EditBoxText">
+                            <model>
+                                <intprop name="WidgetIdent">45</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">120</intprop>
+                                <intprop name="PosY">2100</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="StartCursorPos">32</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">EditBoxText</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="0a9b5b35-90a6-480e-8671-c7641b9cdf7e" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">46</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">1280</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">EditBoxNumeric</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="EditBoxNumeric" oid="fb54ac3a-cdb2-4700-b27e-6e2440edc141" type="EditBoxNumeric">
+                            <model>
+                                <intprop name="WidgetIdent">47</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">200</intprop>
+                                <intprop name="PosY">720</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <floatprop name="Value">0.0</floatprop>
+                                <floatprop name="TicsCoarse">10.0</floatprop>
+                                <floatprop name="TicsFine">0.1</floatprop>
+                                <floatprop name="MinValue">0.0</floatprop>
+                                <floatprop name="MaxValue">100.0</floatprop>
+                                <intprop name="LegendAreaSizeX">800</intprop>
+                                <intprop name="StartCursorPosByte">32</intprop>
+                                <intprop name="MaxFormatStringLength">16</intprop>
+                                <intprop name="MaxLegendStringLength">16</intprop>
+                                <enumprop name="LegendPosition">A661_RIGHT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="LegendRemoved">A661_FALSE</enumprop>
+                                <enumprop name="NumericKeyFlag">A661_TRUE</enumprop>
+                                <enumprop name="CyclicFlag">A661_TRUE</enumprop>
+                                <stringprop name="FormatString">+___.##</stringprop>
+                                <stringprop name="LegendString">LD</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="EditBoxMasked" oid="7cdfbfbe-c932-4fa6-bda2-ae8fd60b9950" type="EditBoxMasked">
+                            <model>
+                                <intprop name="WidgetIdent">48</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">-280</intprop>
+                                <intprop name="SizeX">3320</intprop>
+                                <intprop name="SizeY">780</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="AlphaMask">4294967295</intprop>
+                                <intprop name="NumericMask">4294967295</intprop>
+                                <intprop name="StartCursorPos">32</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">EditBoxMasked</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="EditBoxMultiLine" oid="89aaf43f-2f16-45ab-985e-cfb35928ce03" type="EditBoxMultiLine">
+                            <model>
+                                <intprop name="WidgetIdent">49</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">-1160</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="StartCursorPos">32</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="VerticalScroll">A661_RIGHT</enumprop>
+                                <stringprop name="LabelString">EditBoxMultiLine</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="ceb23677-8c9e-406b-834a-fd0ae8e0c18d" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">50</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">80</intprop>
+                                <intprop name="PosY">-1800</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">EditBoxNumericBCD</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="EditBoxNumericBCD" oid="385d7c46-b2ce-4e7f-a570-e4930ce7841d" type="EditBoxNumericBCD">
+                            <model>
+                                <intprop name="WidgetIdent">51</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">-2500</intprop>
+                                <intprop name="SizeX">5000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="LegendAreaSizeX">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <arrayprop name="Value">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="MinValue">
+                                    <intprop name="1">4051261785</intprop>
+                                    <intprop name="2">2576941056</intprop>
+                                </arrayprop>
+                                <arrayprop name="MaxValue">
+                                    <intprop name="1">293601280</intprop>
+                                    <intprop name="2">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="MinFieldsValues">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="MaxFieldsValues">
+                                    <intprop name="1">25188697</intprop>
+                                    <intprop name="2">2576941056</intprop>
+                                </arrayprop>
+                                <arrayprop name="TicsCoarse">
+                                    <intprop name="1">1</intprop>
+                                    <intprop name="2">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="TicsFine">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">5242880</intprop>
+                                </arrayprop>
+                                <intprop name="NumberOfFields">4</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="LegendPosition">A661_RIGHT</enumprop>
+                                <enumprop name="LegendRemoved">A661_FALSE</enumprop>
+                                <intprop name="MaxFormatStringLength">32</intprop>
+                                <intprop name="MaxLegendStringLength">16</intprop>
+                                <intprop name="PositiveStringLength">16</intprop>
+                                <intprop name="NegativeStringLength">16</intprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="NumericKeyFlag">A661_TRUE</enumprop>
+                                <enumprop name="CyclicFlag">A661_TRUE</enumprop>
+                                <arrayprop name="SizeOfFields">
+                                    <intprop name="1">3</intprop>
+                                    <intprop name="2">2</intprop>
+                                    <intprop name="3">2</intprop>
+                                    <intprop name="4">4</intprop>
+                                </arrayprop>
+                                <stringprop name="FormatString">###d##&apos;##.####&quot;+</stringprop>
+                                <stringprop name="LegendString">LD</stringprop>
+                                <stringprop name="PositiveString">E</stringprop>
+                                <stringprop name="NegativeString">W</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_Combo" oid="ac99d04e-5d5b-4e15-8344-b7a2e56a2628" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">52</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1720</intprop>
+                        <intprop name="PosY">11980</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="6f4aa6fc-350c-452e-9695-9c4bf6c19ee9" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">53</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">-20</intprop>
+                                <intprop name="SizeX">3860</intprop>
+                                <intprop name="SizeY">1900</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="ComboBox" oid="726a4a21-38ee-4735-aeb6-6a8cb3400366" type="ComboBox">
+                            <model>
+                                <intprop name="WidgetIdent">54</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">520</intprop>
+                                <intprop name="PosY">1000</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="SelectingAreaWidth">3000</intprop>
+                                <intprop name="SelectingAreaHeight">4900</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxNumberOfEntries">16</intprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <intprop name="SelectedEntry">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="OpeningEntry">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="OpeningMode">A661_OPEN_DOWN</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <arrayprop name="EntryList">
+                                    <stringprop name="1">ComboBox1</stringprop>
+                                    <stringprop name="2">ComboBox2</stringprop>
+                                    <stringprop name="3">ComboBox3</stringprop>
+                                    <stringprop name="4">ComboBox4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ComboBoxEdit" oid="59b0ac4c-3cd4-49bf-8f49-6724da9c13d3" type="ComboBoxEdit">
+                            <model>
+                                <intprop name="WidgetIdent">55</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">60</intprop>
+                                <intprop name="PosY">40</intprop>
+                                <intprop name="SizeX">3800</intprop>
+                                <intprop name="SizeY">740</intprop>
+                                <intprop name="SelectingAreaWidth">3000</intprop>
+                                <intprop name="SelectingAreaHeight">4900</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxNumberOfEntries">16</intprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <intprop name="SelectedEntry">1</intprop>
+                                <intprop name="OpeningEntry">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="OpeningMode">A661_OPEN_DOWN</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <intprop name="StartCursorPos">32</intprop>
+                                <enumprop name="ReportAllChanges">A661_EDB_CHANGE_CONFIRMED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <arrayprop name="EntryList">
+                                    <stringprop name="1">ComboBoxEdit1</stringprop>
+                                    <stringprop name="2">ComboBoxEdit2</stringprop>
+                                    <stringprop name="3">ComboBoxEdit3</stringprop>
+                                    <stringprop name="4">ComboBoxEdit4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_Gp" oid="42d52171-3019-4b55-a88c-3b365e7112a7" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">56</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1780</intprop>
+                        <intprop name="PosY">5220</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="83d0ea81-b666-44e2-bdeb-48083d4f698f" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">57</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">-20</intprop>
+                                <intprop name="SizeX">4820</intprop>
+                                <intprop name="SizeY">5980</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpArcCircle" oid="4afab8e0-f6da-4891-9fa8-edf37dafbda6" type="GpArcCircle">
+                            <model>
+                                <intprop name="WidgetIdent">58</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2760</intprop>
+                                <intprop name="PosY">3920</intprop>
+                                <intprop name="StartAngle">0</intprop>
+                                <intprop name="EndAngle">1073741824</intprop>
+                                <intprop name="Radius">2000</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpArcEllipse" oid="d8a54176-8de1-405f-84c9-61f5fbb22cf9" type="GpArcEllipse">
+                            <model>
+                                <intprop name="WidgetIdent">59</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">20</intprop>
+                                <intprop name="PosY">5020</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StartAngle">0</intprop>
+                                <intprop name="EndAngle">1073741824</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpCrown" oid="15550f6a-c08d-4a73-bfca-6dda8bb64c4a" type="GpCrown">
+                            <model>
+                                <intprop name="WidgetIdent">60</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">540</intprop>
+                                <intprop name="PosY">3180</intprop>
+                                <intprop name="StartAngle">0</intprop>
+                                <intprop name="EndAngle">1073741824</intprop>
+                                <intprop name="InnerRadius">1500</intprop>
+                                <intprop name="OuterRadius">2000</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpLine" oid="f3f7e9c7-5525-4310-a5fc-bab5e8c57397" type="GpLine">
+                            <model>
+                                <intprop name="WidgetIdent">61</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosXStart">3140</intprop>
+                                <intprop name="PosYStart">2660</intprop>
+                                <intprop name="PosXEnd">4140</intprop>
+                                <intprop name="PosYEnd">3660</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpLinePolar" oid="0314d8ee-502e-44a4-a42f-7e65128f0e53" type="GpLinePolar">
+                            <model>
+                                <intprop name="WidgetIdent">62</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosXStart">140</intprop>
+                                <intprop name="PosYStart">2780</intprop>
+                                <intprop name="RotationAngle">312962560</intprop>
+                                <intprop name="LineLength">1806</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpTriangle" oid="f2c07778-0892-4351-b410-94f7ac7f33ba" type="GpTriangle">
+                            <model>
+                                <intprop name="WidgetIdent">63</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">3500</intprop>
+                                <intprop name="PosY">1800</intprop>
+                                <intprop name="PosX2">4100</intprop>
+                                <intprop name="PosY2">2800</intprop>
+                                <intprop name="PosX3">4700</intprop>
+                                <intprop name="PosY3">1800</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="4634aa53-e066-4111-be04-88c28093aa66" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">64</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">1640</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">LabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="LabelComplex" oid="793427ec-5b23-4879-af5b-8383a5296940" type="LabelComplex">
+                            <model>
+                                <intprop name="WidgetIdent">65</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">180</intprop>
+                                <intprop name="PosY">1060</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <arrayprop name="DefaultStyleText">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                    <intprop name="5">0</intprop>
+                                    <intprop name="6">0</intprop>
+                                    <intprop name="7">0</intprop>
+                                    <intprop name="8">0</intprop>
+                                    <intprop name="9">0</intprop>
+                                    <intprop name="10">0</intprop>
+                                    <intprop name="11">0</intprop>
+                                    <intprop name="12">0</intprop>
+                                </arrayprop>
+                                <stringprop name="LabelString">LabelComplex</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Picture" oid="a853d146-b23c-4724-8321-ce363133d2a1" type="Picture">
+                            <model>
+                                <intprop name="WidgetIdent">66</intprop>
+                                <enumprop name="Anonymous">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">3680</intprop>
+                                <intprop name="PosY">260</intprop>
+                                <intprop name="SizeX">1000</intprop>
+                                <intprop name="SizeY">1000</intprop>
+                                <intprop name="StyleSet">0</intprop>
+                                <intprop name="PictureReference">1</intprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="PictureAnimated" oid="d0ace8df-0f35-4c5c-a567-5c9e130cca37" type="PictureAnimated">
+                            <model>
+                                <intprop name="WidgetIdent">67</intprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2460</intprop>
+                                <intprop name="PosY">200</intprop>
+                                <intprop name="SizeX">1000</intprop>
+                                <intprop name="SizeY">1000</intprop>
+                                <intprop name="StyleSet">0</intprop>
+                                <intprop name="NumberOfPictures">4</intprop>
+                                <intprop name="IndexOfFrequency">10</intprop>
+                                <enumprop name="LoopFlag">A661_TRUE</enumprop>
+                                <enumprop name="AnimationFlag">A661_TRUE</enumprop>
+                                <arrayprop name="PictureArray">
+                                    <intprop name="1">11</intprop>
+                                    <intprop name="2">12</intprop>
+                                    <intprop name="3">13</intprop>
+                                    <intprop name="4">14</intprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BasicContainer_MapGrid" oid="8e80d72e-8a12-4872-b4ad-03a982283acb" type="BasicContainer">
+                    <model>
+                        <intprop name="WidgetIdent">68</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">11380</intprop>
+                        <intprop name="PosY">16080</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="Label" oid="f39637c4-b584-48f9-9479-35e9ed450c6c" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">69</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1020</intprop>
+                                <intprop name="PosY">2120</intprop>
+                                <intprop name="SizeX">1880</intprop>
+                                <intprop name="SizeY">640</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MapGrid</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="018c3857-dace-420b-b7d6-43575d621885" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">70</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">0</intprop>
+                                <intprop name="PosY">60</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">2000</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">21</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="MapHorz" oid="24286e76-e5e5-4a1b-9a89-55e53e35d1ee" type="MapHorz">
+                            <model>
+                                <intprop name="WidgetIdent">71</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">0</intprop>
+                                <intprop name="PosY">60</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">2000</intprop>
+                                <intprop name="ScreenReferencePointX">400</intprop>
+                                <intprop name="ScreenReferencePointY">400</intprop>
+                                <intprop name="Range">6553600</intprop>
+                                <intprop name="ScreenRange">100</intprop>
+                                <intprop name="ProjectionType">1</intprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children>
+                                <widget name="MapHorz_Source" oid="d3117ba4-5b18-43df-944c-dfd7101d777d" type="MapHorz_Source">
+                                    <model>
+                                        <intprop name="WidgetIdent">72</intprop>
+                                        <enumprop name="Enable">A661_TRUE</enumprop>
+                                        <enumprop name="Visible">A661_TRUE</enumprop>
+                                        <enumprop name="MapDataFormat">A661_MDF_DIST_DIST</enumprop>
+                                        <enumprop name="EventFlag">A661_VALIDATION</enumprop>
+                                    </model>
+                                    <runtime/>
+                                    <events/>
+                                    <children>
+                                        <widget name="MapGrid_Basic01" oid="496ccb96-880a-4599-9a07-79f21a1686f9" type="MapGrid">
+                                            <comment>MapGrid is used to test the appearance properties during runtime</comment>
+                                            <model>
+                                                <intprop name="WidgetIdent">73</intprop>
+                                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                                <floatprop name="OffsetX">0.0</floatprop>
+                                                <floatprop name="OffsetY">0.0</floatprop>
+                                                <floatprop name="IncrementX">100.0</floatprop>
+                                                <floatprop name="IncrementY">100.0</floatprop>
+                                                <intprop name="CountX">64</intprop>
+                                                <intprop name="CountY">64</intprop>
+                                            </model>
+                                            <runtime/>
+                                            <children/>
+                                        </widget>
+                                        <widget name="MapGrid_Basic02" oid="7a20dede-01c4-4cf9-90fa-07aa0cf20dcf" type="MapGrid">
+                                            <comment>MapGrid under MapHorz is used to test the property A661_BUFFER_OF_FILL_STYLES during runtime</comment>
+                                            <model>
+                                                <intprop name="WidgetIdent">74</intprop>
+                                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                                <floatprop name="OffsetX">0.0</floatprop>
+                                                <floatprop name="OffsetY">0.0</floatprop>
+                                                <floatprop name="IncrementX">100.0</floatprop>
+                                                <floatprop name="IncrementY">100.0</floatprop>
+                                                <intprop name="CountX">64</intprop>
+                                                <intprop name="CountY">64</intprop>
+                                            </model>
+                                            <runtime/>
+                                            <children/>
+                                        </widget>
+                                        <widget name="MapGrid_Basic03" oid="91528d7f-10e4-4008-8a92-cc752e18814d" type="MapGrid">
+                                            <comment>MapGrid under MapHorz is used to test the property A661_BUFFER_OF_FILL_STYLES during runtime</comment>
+                                            <model>
+                                                <intprop name="WidgetIdent">75</intprop>
+                                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                                <floatprop name="OffsetX">0.0</floatprop>
+                                                <floatprop name="OffsetY">0.0</floatprop>
+                                                <floatprop name="IncrementX">100.0</floatprop>
+                                                <floatprop name="IncrementY">100.0</floatprop>
+                                                <intprop name="CountX">64</intprop>
+                                                <intprop name="CountY">64</intprop>
+                                            </model>
+                                            <runtime/>
+                                            <children/>
+                                        </widget>
+                                    </children>
+                                </widget>
+                            </children>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BlinkingContainer" oid="8a0dfa49-5f3f-46f9-a121-4c6e0d1c20db" type="BlinkingContainer">
+                    <model>
+                        <intprop name="WidgetIdent">76</intprop>
+                        <intprop name="BlinkingType">0</intprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="983e972f-ebf3-485f-ba15-e4c5d0b023aa" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">77</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2040</intprop>
+                                <intprop name="PosY">16580</intprop>
+                                <intprop name="SizeX">4380</intprop>
+                                <intprop name="SizeY">2160</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="4ffa2315-8729-444c-bd96-407b0ebc92bf" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">78</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2160</intprop>
+                                <intprop name="PosY">18040</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">BlinkingContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Symbol" oid="be467194-02b3-42b7-a1d8-d252300ee36f" type="Symbol">
+                            <model>
+                                <intprop name="WidgetIdent">79</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">4500</intprop>
+                                <intprop name="PosY">17220</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">20</intprop>
+                                <intprop name="SymbolReference">10</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="RotationContainer" oid="25726de5-eddc-4940-860e-b3ece27fa5b7" type="RotationContainer">
+                    <model>
+                        <intprop name="WidgetIdent">80</intprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="CenterX">6400</intprop>
+                        <intprop name="CenterY">3640</intprop>
+                        <intprop name="RotationAngle">0</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="bfa7f1ee-2368-41b1-9018-157b44058089" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">81</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">6720</intprop>
+                                <intprop name="PosY">16500</intprop>
+                                <intprop name="SizeX">4380</intprop>
+                                <intprop name="SizeY">2160</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="79326f9b-44e7-4c66-8782-ac3ab68da83d" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">82</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">6840</intprop>
+                                <intprop name="PosY">17960</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">RotationContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpCrown" oid="07c8b9eb-3780-4c54-b60d-e939ecc88837" type="GpCrown">
+                            <model>
+                                <intprop name="WidgetIdent">83</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">10120</intprop>
+                                <intprop name="PosY">17220</intprop>
+                                <intprop name="StartAngle">0</intprop>
+                                <intprop name="EndAngle">1119270656</intprop>
+                                <intprop name="InnerRadius">490</intprop>
+                                <intprop name="OuterRadius">880</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="TranslationContainer" oid="2573e877-b1e7-4b0b-aaed-62633155fe8a" type="TranslationContainer">
+                    <model>
+                        <intprop name="WidgetIdent">84</intprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="TranslationX">1980</intprop>
+                        <intprop name="TranslationY">13940</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="0561993a-5db5-4c30-a929-8f9c1c917737" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">85</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">40</intprop>
+                                <intprop name="PosY">80</intprop>
+                                <intprop name="SizeX">4380</intprop>
+                                <intprop name="SizeY">2160</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="310f43f1-2dfa-4f16-9b7f-05d240c8d198" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">86</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">1540</intprop>
+                                <intprop name="SizeX">4200</intprop>
+                                <intprop name="SizeY">560</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">TranslationContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="ac6cd98f-9c9c-4c6a-9ad7-90453972b5c6" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">87</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1600</intprop>
+                                <intprop name="PosY">660</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="MaskContainer" oid="2490a86e-7de1-4af1-a407-e30f24133c66" type="MaskContainer">
+                    <model>
+                        <intprop name="WidgetIdent">88</intprop>
+                        <enumprop name="MaskEnabled">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">7100</intprop>
+                        <intprop name="PosY">14140</intprop>
+                        <intprop name="MaskReference">1</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="d3614ac6-1750-4ec0-af74-6ac0b2084938" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">89</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-280</intprop>
+                                <intprop name="PosY">0</intprop>
+                                <intprop name="SizeX">2940</intprop>
+                                <intprop name="SizeY">1840</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="ad92d1d2-4229-4b49-bd64-b1eac0ec326f" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">90</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-280</intprop>
+                                <intprop name="PosY">1060</intprop>
+                                <intprop name="SizeX">2780</intprop>
+                                <intprop name="SizeY">560</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MaskContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="9dff6198-4963-465f-996c-22c4a7ac9e91" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">91</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-220</intprop>
+                                <intprop name="PosY">280</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="MutuallyExclusiveContainer" oid="a40a6fd1-21d3-42d3-89f4-78b0e88d293a" type="MutuallyExclusiveContainer">
+                    <comment>The MutuallyExclusiveContainer widget used to test the appearance parameters during runtime phase</comment>
+                    <model>
+                        <intprop name="WidgetIdent">92</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">11040</intprop>
+                        <intprop name="PosY">14900</intprop>
+                        <intprop name="VisibleChild">93</intprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="ToggleButton" oid="81b9758e-99fb-47ec-9a77-1ae1d71ea5c9" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">93</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-940</intprop>
+                                <intprop name="PosY">80</intprop>
+                                <intprop name="SizeX">6460</intprop>
+                                <intprop name="SizeY">760</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MutuallyExclusiveContainer</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ToggleButton" oid="de08b305-2e78-4d05-8242-adb338723481" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">94</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">280</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MutuallyExclusive2</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ToggleButton" oid="926e938e-d79b-4a71-bd52-1fef6b26bcac" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">95</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">280</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MutuallyExclusive3</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="Panel" oid="02af0e47-5403-4e13-b8b8-b9de210a3b1b" type="Panel">
+                    <model>
+                        <intprop name="WidgetIdent">96</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1960</intprop>
+                        <intprop name="PosY">10780</intprop>
+                        <intprop name="SizeX">3000</intprop>
+                        <intprop name="SizeY">3000</intprop>
+                        <intprop name="StyleSet">100</intprop>
+                        <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="BackGround" oid="bca1a30f-7249-49e0-bbc3-aa21cc33d68e" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">97</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">100</intprop>
+                                <intprop name="PosY">540</intprop>
+                                <intprop name="SizeX">2580</intprop>
+                                <intprop name="SizeY">1880</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="eaa4eac9-186c-4179-8fde-d3dad518e26a" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">98</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">100</intprop>
+                                <intprop name="PosY">1600</intprop>
+                                <intprop name="SizeX">1960</intprop>
+                                <intprop name="SizeY">640</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">Panel</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="6e407525-7d33-46b9-8160-b89c0ea45119" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">99</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">820</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="PopUpPanel" oid="a7706bf3-f6b1-4082-b260-773461b4def0" type="PopUpPanel">
+                    <model>
+                        <intprop name="WidgetIdent">100</intprop>
+                        <enumprop name="UAPositionFlag">A661_TRUE</enumprop>
+                        <enumprop name="AutomaticClosure">A661_FALSE</enumprop>
+                        <intprop name="PosX">5420</intprop>
+                        <intprop name="PosY">10800</intprop>
+                        <intprop name="SizeX">3000</intprop>
+                        <intprop name="SizeY">3000</intprop>
+                        <intprop name="StyleSet">21</intprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="BackGround" oid="d354b8df-7374-4993-be28-3e59cf99cd6e" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">101</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">500</intprop>
+                                <intprop name="SizeX">2580</intprop>
+                                <intprop name="SizeY">1880</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="f4add05c-c13b-4271-b117-490d0e59aec4" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">102</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">160</intprop>
+                                <intprop name="PosY">1560</intprop>
+                                <intprop name="SizeX">1960</intprop>
+                                <intprop name="SizeY">640</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">PopUpPanel</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpRectangle" oid="41fa75c0-b7a7-46d6-9294-5f025ddd8830" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">103</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">220</intprop>
+                                <intprop name="PosY">780</intprop>
+                                <intprop name="SizeX">2000</intprop>
+                                <intprop name="SizeY">600</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="PopUpPanelButton" oid="52ac7119-ab42-414a-bb2a-b0232194282a" type="PopUpPanelButton">
+                    <model>
+                        <intprop name="WidgetIdent">104</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">9320</intprop>
+                        <intprop name="PosY">12620</intprop>
+                        <intprop name="SizeX">5620</intprop>
+                        <intprop name="SizeY">1580</intprop>
+                        <intprop name="StyleSet">110</intprop>
+                        <intprop name="NextFocusedWidget">0</intprop>
+                        <intprop name="PopupPosX">9320</intprop>
+                        <intprop name="PopupPosY">13320</intprop>
+                        <intprop name="PopupSizeX">5400</intprop>
+                        <intprop name="PopupSizeY">2640</intprop>
+                        <intprop name="MaxStringLength">32</intprop>
+                        <intprop name="PictureReference">1</intprop>
+                        <enumprop name="PicturePosition">A661_RIGHT</enumprop>
+                        <enumprop name="Alignment">A661_LEFT</enumprop>
+                        <enumprop name="UAPositionFlag">A661_TRUE</enumprop>
+                        <enumprop name="AutomaticClosure">A661_FALSE</enumprop>
+                        <stringprop name="LabelString">PopUpPanelButton</stringprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="BackGround" oid="0c8da4ee-2a42-4964-9fa2-5113d3b2b4b1" type="GpRectangle">
+                            <model>
+                                <intprop name="WidgetIdent">105</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-20</intprop>
+                                <intprop name="PosY">-320</intprop>
+                                <intprop name="SizeX">4380</intprop>
+                                <intprop name="SizeY">2160</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">21</intprop>
+                                <enumprop name="Filled">A661_FALSE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="35c90a78-59bf-4382-aa46-419bab152aff" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">106</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">80</intprop>
+                                <intprop name="PosY">860</intprop>
+                                <intprop name="SizeX">3540</intprop>
+                                <intprop name="SizeY">630</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">34</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">PopUpPanelButton</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                        <widget name="GpCrown" oid="26a7e7d3-50ad-4aa3-87b1-f95fb4225a2f" type="GpCrown">
+                            <model>
+                                <intprop name="WidgetIdent">107</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">2380</intprop>
+                                <intprop name="PosY">100</intprop>
+                                <intprop name="StartAngle">0</intprop>
+                                <intprop name="EndAngle">1119270656</intprop>
+                                <intprop name="InnerRadius">490</intprop>
+                                <intprop name="OuterRadius">880</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Filled">A661_TRUE</enumprop>
+                                <intprop name="FillIndex">74</intprop>
+                                <enumprop name="Halo">A661_FALSE</enumprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="ScrollPanel" oid="91611ce1-1d61-46e5-aa4b-9f7912af60cb" type="ScrollPanel">
+                    <model>
+                        <intprop name="WidgetIdent">108</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">1820</intprop>
+                        <intprop name="PosY">3620</intprop>
+                        <intprop name="SizeX">5080</intprop>
+                        <intprop name="SizeY">6860</intprop>
+                        <intprop name="LineDeltaX">100</intprop>
+                        <intprop name="LineDeltaY">100</intprop>
+                        <intprop name="PageDeltaX">500</intprop>
+                        <intprop name="PageDeltaY">500</intprop>
+                        <intprop name="HomeX">0</intprop>
+                        <intprop name="HomeY">0</intprop>
+                        <intprop name="FrameX">200</intprop>
+                        <intprop name="FrameY">200</intprop>
+                        <intprop name="SizeXsheet">10000</intprop>
+                        <intprop name="SizeYsheet">10000</intprop>
+                        <intprop name="BoundX">0</intprop>
+                        <intprop name="BoundY">0</intprop>
+                        <intprop name="SizeXbound">10000</intprop>
+                        <intprop name="SizeYbound">10000</intprop>
+                        <intprop name="StyleSet">110</intprop>
+                        <enumprop name="HorizontalScroll">A661_TOP</enumprop>
+                        <enumprop name="VerticalScroll">A661_RIGHT</enumprop>
+                        <enumprop name="FlagReportFramePos">A661_FALSE</enumprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="Slider" oid="41e41908-a669-48c5-8c38-68de1a651ed1" type="Slider">
+                            <model>
+                                <intprop name="WidgetIdent">109</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">880</intprop>
+                                <intprop name="PosY">4920</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <floatprop name="MinValue">0.0</floatprop>
+                                <floatprop name="MaxValue">100.0</floatprop>
+                                <floatprop name="Value">0.0</floatprop>
+                                <floatprop name="MajorTickInterval">20.0</floatprop>
+                                <enumprop name="ShowMajorLabels">A661_TRUE</enumprop>
+                                <enumprop name="Orientation">A661_LEFT_TO_RIGHT</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <intprop name="LsbMultiple">5</intprop>
+                                <intprop name="MinorTickMultiple">4</intprop>
+                                <floatprop name="MajorTickReference">0.0</floatprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="SelectionListButton" oid="4a06cb66-90c2-4b84-a11b-19cc3e5ca772" type="SelectionListButton">
+                            <model>
+                                <intprop name="WidgetIdent">110</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">580</intprop>
+                                <intprop name="PosY">3460</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="SelectingAreaWidth">3000</intprop>
+                                <intprop name="SelectingAreaHeight">4900</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxNumberOfEntries">16</intprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <intprop name="SelectedEntry">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="OpeningEntry">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="OpeningMode">A661_OPEN_DOWN</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <stringprop name="LabelString">Selection</stringprop>
+                                <arrayprop name="EntryList">
+                                    <stringprop name="1">Entry1</stringprop>
+                                    <stringprop name="2">Entry2</stringprop>
+                                    <stringprop name="3">Entry3</stringprop>
+                                    <stringprop name="4">Entry4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ScrollList" oid="84534e86-79e6-4bc9-a504-331752f84c89" type="ScrollList">
+                            <model>
+                                <intprop name="WidgetIdent">111</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">440</intprop>
+                                <intprop name="PosY">-40</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">4900</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxNumberOfEntries">16</intprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <intprop name="SelectedEntry">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="FirstAccessibleEntry">1</intprop>
+                                <intprop name="FirstVisibleEntry">1</intprop>
+                                <enumprop name="VerticalScroll">A661_RIGHT</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="FlagReportVisibleEntry">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <arrayprop name="DefaultStyleText">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                    <intprop name="5">0</intprop>
+                                    <intprop name="6">0</intprop>
+                                    <intprop name="7">0</intprop>
+                                    <intprop name="8">0</intprop>
+                                    <intprop name="9">0</intprop>
+                                    <intprop name="10">0</intprop>
+                                    <intprop name="11">0</intprop>
+                                    <intprop name="12">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="EnableArray">
+                                    <enumprop name="1">A661_TRUE</enumprop>
+                                    <enumprop name="2">A661_TRUE</enumprop>
+                                    <enumprop name="3">A661_TRUE</enumprop>
+                                    <enumprop name="4">A661_TRUE</enumprop>
+                                </arrayprop>
+                                <arrayprop name="LabelStringArray">
+                                    <stringprop name="1">Entry1</stringprop>
+                                    <stringprop name="2">Entry2</stringprop>
+                                    <stringprop name="3">Entry3</stringprop>
+                                    <stringprop name="4">Entry4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="BufferFormat" oid="88ceb0e3-0b5a-4fae-8f36-bf85331e18d1" type="BufferFormat">
+                    <model>
+                        <intprop name="WidgetIdent">112</intprop>
+                        <intprop name="NumberOfFields">1</intprop>
+                        <arrayprop name="BufferStructure">
+                            <structprop name="1">
+                                <intprop name="WidgetIdent">108</intprop>
+                                <enumprop name="ParameterIdent">A661_ENABLE</enumprop>
+                            </structprop>
+                        </arrayprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="Connector" oid="b986a96b-11f3-46fd-bad8-f7026b2a500a" type="Connector">
+                    <model>
+                        <intprop name="WidgetIdent">113</intprop>
+                        <intprop name="ConnectorReference">0</intprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="CursorRef" oid="8d5c9e3f-b2e9-4a38-9c87-5a4a24286a88" type="CursorRef">
+                    <model>
+                        <intprop name="WidgetIdent">114</intprop>
+                        <intprop name="PosX">11440</intprop>
+                        <intprop name="PosY">8660</intprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="ExternalSource" oid="14d93896-62b4-497c-a093-1ab703788d2b" type="ExternalSource">
+                    <model>
+                        <intprop name="WidgetIdent">115</intprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">5440</intprop>
+                        <intprop name="PosY">12660</intprop>
+                        <intprop name="SizeX">3000</intprop>
+                        <intprop name="SizeY">800</intprop>
+                        <intprop name="SourceReference">0</intprop>
+                        <intprop name="SourceX">0</intprop>
+                        <intprop name="SourceY">0</intprop>
+                        <intprop name="SourceDX">500</intprop>
+                        <intprop name="SourceDY">300</intprop>
+                        <intprop name="StyleSet">1</intprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="FocusIn" oid="af884f26-5dde-4263-943f-41804326eb25" type="FocusIn">
+                    <model>
+                        <intprop name="WidgetIdent">116</intprop>
+                        <intprop name="NextFocusedWidget">0</intprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="FocusOut" oid="31386b20-8cc7-4f2c-aca5-fc671e66f463" type="FocusOut">
+                    <model>
+                        <intprop name="WidgetIdent">117</intprop>
+                        <intprop name="NextFocusInAppId">1</intprop>
+                        <intprop name="NextFocusInLayerId">1</intprop>
+                        <intprop name="NextFocusInId">0</intprop>
+                    </model>
+                    <runtime/>
+                    <children/>
+                </widget>
+                <widget name="ProxyButton" oid="dfafa5ef-5a51-43e3-bb3d-aecf88b4d173" type="ProxyButton">
+                    <model>
+                        <intprop name="WidgetIdent">118</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <intprop name="DedicatedKeyIdent">8</intprop>
+                        <intprop name="TargetWidgetIdent">108</intprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children/>
+                </widget>
+                <widget name="RadioBox" oid="5382247a-a616-4b50-b1ea-ee51b6853f01" type="RadioBox">
+                    <model>
+                        <intprop name="WidgetIdent">119</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="CheckButton" oid="6cfda0e8-19d4-42cf-af8a-45af45857174" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">120</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">11880</intprop>
+                                <intprop name="PosY">11380</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">RadioBox</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="CheckButton" oid="3f36f1c1-246e-40fa-a094-f64bece41072" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">121</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">11900</intprop>
+                                <intprop name="PosY">10720</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">RadioBox</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="WatchdogContainer" oid="5a2ebe6a-ad7d-46cd-bb4b-2f7148990d4d" type="WatchdogContainer">
+                    <model>
+                        <intprop name="WidgetIdent">122</intprop>
+                        <intprop name="TimePeriod">10</intprop>
+                        <intprop name="ValidCountLimit">100</intprop>
+                        <intprop name="FailCountLimit">80</intprop>
+                        <intprop name="Refresh">0</intprop>
+                        <intprop name="ShowIfFailIdent">0</intprop>
+                        <enumprop name="ShowFail">A661_FALSE</enumprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="PopUpMenu" oid="d459329a-4a3b-44c1-9501-03c453ebbd23" type="PopUpMenu">
+                            <model>
+                                <intprop name="WidgetIdent">123</intprop>
+                                <enumprop name="OpeningMode">A661_OPEN_UP</enumprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <intprop name="PosX">7060</intprop>
+                                <intprop name="PosY">7700</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">4900</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <arrayprop name="PopUpIdentArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="PictureArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="EnableArray">
+                                    <enumprop name="1">A661_TRUE</enumprop>
+                                    <enumprop name="2">A661_TRUE</enumprop>
+                                    <enumprop name="3">A661_TRUE</enumprop>
+                                    <enumprop name="4">A661_TRUE</enumprop>
+                                </arrayprop>
+                                <arrayprop name="StringArray">
+                                    <stringprop name="1">Entry1</stringprop>
+                                    <stringprop name="2">Entry2</stringprop>
+                                    <stringprop name="3">Entry3</stringprop>
+                                    <stringprop name="4">Entry4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="PopUpMenuButton" oid="641875ad-b832-48b7-acc4-d9e3fd9af849" type="PopUpMenuButton">
+                            <model>
+                                <intprop name="WidgetIdent">124</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">9720</intprop>
+                                <intprop name="PosY">8520</intprop>
+                                <intprop name="SizeX">3680</intprop>
+                                <intprop name="SizeY">740</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="PopupPosX">9720</intprop>
+                                <intprop name="PopupPosY">9220</intprop>
+                                <intprop name="PopupSizeX">3000</intprop>
+                                <intprop name="PopupSizeY">3000</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="MaxStringLengthPopUp">32</intprop>
+                                <intprop name="PictureReference">1</intprop>
+                                <intprop name="NumberOfEntries">4</intprop>
+                                <enumprop name="PicturePosition">A661_RIGHT</enumprop>
+                                <enumprop name="OpeningMode">A661_OPEN_UP</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <stringprop name="LabelString">PopUpMenuButton</stringprop>
+                                <arrayprop name="PopUpIdentArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="PictureArray">
+                                    <intprop name="1">0</intprop>
+                                    <intprop name="2">0</intprop>
+                                    <intprop name="3">0</intprop>
+                                    <intprop name="4">0</intprop>
+                                </arrayprop>
+                                <arrayprop name="EnableArray">
+                                    <enumprop name="1">A661_TRUE</enumprop>
+                                    <enumprop name="2">A661_TRUE</enumprop>
+                                    <enumprop name="3">A661_TRUE</enumprop>
+                                    <enumprop name="4">A661_TRUE</enumprop>
+                                </arrayprop>
+                                <arrayprop name="StringArray">
+                                    <stringprop name="1">Entry1</stringprop>
+                                    <stringprop name="2">Entry2</stringprop>
+                                    <stringprop name="3">Entry3</stringprop>
+                                    <stringprop name="4">Entry4</stringprop>
+                                </arrayprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="Label" oid="c134481a-b8dd-4be3-a833-2635dbfc486d" type="Label">
+                            <model>
+                                <intprop name="WidgetIdent">125</intprop>
+                                <enumprop name="Anonymous">A661_FALSE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">8080</intprop>
+                                <intprop name="PosY">10480</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="RotationAngle">0</intprop>
+                                <intprop name="StyleSet">1</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                <intprop name="Font">0</intprop>
+                                <intprop name="ColorIndex">1</intprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">WatchdogContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="MenuBar" oid="bbb6f439-7ab1-41b4-8814-fe17f369b2cd" type="MenuBar">
+                    <model>
+                        <intprop name="WidgetIdent">126</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <enumprop name="Horizontal">A661_TRUE</enumprop>
+                        <intprop name="PosX">8160</intprop>
+                        <intprop name="PosY">6920</intprop>
+                        <intprop name="ButtonPos">0</intprop>
+                        <intprop name="ButtonSize">800</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="ToggleButton" oid="67bb32a0-c3b3-4fd1-a5da-27925f40eb9a" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">127</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-100</intprop>
+                                <intprop name="PosY">360</intprop>
+                                <intprop name="SizeX">2060</intprop>
+                                <intprop name="SizeY">660</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MenuBar</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="ToggleButton" oid="a9ff06cd-c464-46f2-aea4-3853dfc6c20c" type="ToggleButton">
+                            <model>
+                                <intprop name="WidgetIdent">128</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">1980</intprop>
+                                <intprop name="PosY">60</intprop>
+                                <intprop name="SizeX">1960</intprop>
+                                <intprop name="SizeY">820</intprop>
+                                <intprop name="StyleSet">110</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="ToggleState">A661_UNSELECTED</enumprop>
+                                <enumprop name="AlternateFlag">A661_FALSE</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">MenuBar</stringprop>
+                                <stringprop name="AlternateLabelString">AlternateLabelString</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="SizeToFitContainer" oid="7166e18b-be14-4f05-8e0b-2ced6463ea43" type="SizeToFitContainer">
+                    <model>
+                        <intprop name="WidgetIdent">129</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">7340</intprop>
+                        <intprop name="PosY">5320</intprop>
+                        <intprop name="SizeX">3540</intprop>
+                        <intprop name="SizeY">1160</intprop>
+                        <intprop name="NumberOfVisibleChildren">3</intprop>
+                        <enumprop name="SizeToFitMode">A661_SIZE_TOP_DOWN</enumprop>
+                        <intprop name="ItemSpacing">100</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="CheckButton" oid="cbab090a-d848-4afd-b72a-fcfce766db10" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">130</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-20</intprop>
+                                <intprop name="PosY">80</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">SizeToFitContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="CheckButton" oid="eed26ae2-f7fc-46c1-9e79-465f9fbff41a" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">131</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">-20</intprop>
+                                <intprop name="PosY">80</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">SizeToFitContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="ShuffleToFitContainer" oid="a3b7e543-936d-45a6-8ffd-2df7805e3ed2" type="ShuffleToFitContainer">
+                    <model>
+                        <intprop name="WidgetIdent">132</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">13420</intprop>
+                        <intprop name="PosY">7520</intprop>
+                        <intprop name="SizeX">3000</intprop>
+                        <intprop name="SizeY">800</intprop>
+                        <intprop name="NumberOfVisibleChildren">3</intprop>
+                        <enumprop name="ShuffleToFitMode">A661_SHUFFLE_UP</enumprop>
+                        <intprop name="ItemSpacing">100</intprop>
+                        <intprop name="StyleSet">1</intprop>
+                    </model>
+                    <runtime/>
+                    <children>
+                        <widget name="CheckButton" oid="afcb4e19-725f-4560-907f-b7718eb90553" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">133</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">10800</intprop>
+                                <intprop name="PosY">1460</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">ShuffleToFitContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                        <widget name="CheckButton" oid="43daf683-bc6d-4352-82fe-72998d0af96a" type="CheckButton">
+                            <model>
+                                <intprop name="WidgetIdent">134</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="PosX">10800</intprop>
+                                <intprop name="PosY">1460</intprop>
+                                <intprop name="SizeX">3000</intprop>
+                                <intprop name="SizeY">800</intprop>
+                                <intprop name="StyleSet">50</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <enumprop name="CheckButtonState">A661_UNSELECTED</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="PicturePosition">A661_LEFT</enumprop>
+                                <stringprop name="LabelString">ShuffleToFitContainer</stringprop>
+                            </model>
+                            <runtime/>
+                            <events/>
+                            <children/>
+                        </widget>
+                    </children>
+                </widget>
+                <widget name="TabbedPanelGroup" oid="46091464-3721-4d66-a44a-a692c2efd291" type="TabbedPanelGroup">
+                    <model>
+                        <intprop name="WidgetIdent">135</intprop>
+                        <enumprop name="Enable">A661_TRUE</enumprop>
+                        <enumprop name="Visible">A661_TRUE</enumprop>
+                        <intprop name="PosX">11420</intprop>
+                        <intprop name="PosY">2740</intprop>
+                        <intprop name="SizeX">3000</intprop>
+                        <intprop name="SizeY">3000</intprop>
+                        <intprop name="StyleSet">0</intprop>
+                        <intprop name="ActiveTabbedPanelID">136</intprop>
+                        <enumprop name="TabPosition">A661_TOP</enumprop>
+                        <enumprop name="AutomaticInsetSizeFlag">A661_TRUE</enumprop>
+                    </model>
+                    <runtime/>
+                    <events/>
+                    <children>
+                        <widget name="TabbedPanel" oid="ec0de9ac-b899-4b91-8078-26a2a0ae4f76" type="TabbedPanel">
+                            <model>
+                                <intprop name="WidgetIdent">136</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="StyleSet">100</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="PictureReference">1</intprop>
+                                <enumprop name="PicturePosition">A661_CENTER</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <intprop name="InsetSize">1000</intprop>
+                                <stringprop name="LabelString">TabbedPanel</stringprop>
+                            </model>
+                            <runtime/>
+                            <children>
+                                <widget name="Symbol" oid="5f8ea0bd-7437-48fa-9d28-5509300e2f43" type="Symbol">
+                                    <model>
+                                        <intprop name="WidgetIdent">137</intprop>
+                                        <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                        <enumprop name="Visible">A661_TRUE</enumprop>
+                                        <intprop name="PosX">600</intprop>
+                                        <intprop name="PosY">1000</intprop>
+                                        <intprop name="RotationAngle">0</intprop>
+                                        <intprop name="StyleSet">1</intprop>
+                                        <intprop name="SymbolReference">1</intprop>
+                                        <intprop name="ColorIndex">1</intprop>
+                                    </model>
+                                    <runtime/>
+                                    <children/>
+                                </widget>
+                            </children>
+                        </widget>
+                        <widget name="TabbedPanel" oid="1336024b-d163-4a43-b89e-fd14c312d4b0" type="TabbedPanel">
+                            <model>
+                                <intprop name="WidgetIdent">138</intprop>
+                                <enumprop name="Enable">A661_TRUE</enumprop>
+                                <enumprop name="Visible">A661_TRUE</enumprop>
+                                <intprop name="StyleSet">100</intprop>
+                                <intprop name="NextFocusedWidget">0</intprop>
+                                <intprop name="MaxStringLength">32</intprop>
+                                <intprop name="PictureReference">1</intprop>
+                                <enumprop name="PicturePosition">A661_CENTER</enumprop>
+                                <enumprop name="AutomaticFocusMotion">A661_FALSE</enumprop>
+                                <enumprop name="Alignment">A661_LEFT</enumprop>
+                                <intprop name="InsetSize">1000</intprop>
+                                <stringprop name="LabelString">TabbedPanel</stringprop>
+                            </model>
+                            <runtime/>
+                            <children>
+                                <widget name="Symbol" oid="e44336ff-3b4d-4d35-9dfb-1301a153b28d" type="Symbol">
+                                    <model>
+                                        <intprop name="WidgetIdent">139</intprop>
+                                        <enumprop name="MotionAllowed">A661_TRUE</enumprop>
+                                        <enumprop name="Visible">A661_TRUE</enumprop>
+                                        <intprop name="PosX">600</intprop>
+                                        <intprop name="PosY">1200</intprop>
+                                        <intprop name="RotationAngle">0</intprop>
+                                        <intprop name="StyleSet">1</intprop>
+                                        <intprop name="SymbolReference">1</intprop>
+                                        <intprop name="ColorIndex">1</intprop>
+                                    </model>
+                                    <runtime/>
+                                    <children/>
+                                </widget>
+                            </children>
+                        </widget>
+                    </children>
+                </widget>
+            </children>
+        </A661Layer>
+    </children>
+</specification>
+
+<!-- crc32 : 3804945712 -->
+

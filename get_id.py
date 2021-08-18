@@ -64,7 +64,8 @@ from pathlib import Path
 Path("toto.json").write_text(json.dumps(json_data, indent=2))
 
 
-# %%
+#%%
+from pathlib import Path
 from jinja2 import Template
 
 template_content = Path("toto.json.j2").read_text()

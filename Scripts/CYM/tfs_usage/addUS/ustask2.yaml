@@ -1,0 +1,18 @@
+# Configuration VSTS Scripts
+# NOTE: it shall start by "---"
+---
+
+# Information related to TFS
+Team instance: https://tfs.ansys.com:8443/tfs/ANSYS_Development/
+API token: un4fifm5fk3q66htvvkwgiwysldapgw2iw6buzzsuak3iapdx6ia
+Author: Yiming Chen
+Areas:
+  - Portfolio\Work Items\Program SBU\SCADE\SCADE Display\IDE
+User Stories & Tasks:
+  Performance for 2020R2#Portfolio\2020-PI-1:
+    - Performance tests for 2020 R2 in iteration 04#Portfolio\2020-PI-1\2020-IT-04
+    - Operational tests for 2020 R2 in iteration 04#Portfolio\2020-PI-1\2020-IT-04
+    - Performance tests for 2020 R2 in iteration 06#Portfolio\2020-PI-1\2020-IT-06
+    - Operational tests for 2020 R2 in iteration 06#Portfolio\2020-PI-1\2020-IT-06
+  TS updated for 2020R2#Portfolio\2020-PI-1:
+    - First version of TS of 2020 R2#Portfolio\2020-PI-1\2020-IT-02

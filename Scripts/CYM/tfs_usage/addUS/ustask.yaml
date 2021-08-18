@@ -1,0 +1,33 @@
+# Configuration VSTS Scripts
+# NOTE: it shall start by "---"
+---
+
+# Information related to TFS
+Team instance: https://tfs.ansys.com:8443/tfs/ANSYS_Development/
+API token: rcm5hw7fbgxcqgp57qdcspxvsdts3pbqfis3j7n67abwyr7u76pa
+Areas:
+  - Portfolio\Work Items\Program SBU\SCADE\SCADE Display\IDE
+Author: Yiming Chen
+User Stories & Tasks:
+  ITS creation for 2020R1:
+    - ITS creation for 2020R1 for iteration 10
+    - ITS creation for 2020R1 for iteration 11
+    - ITS creation for 2020R1 for iteration 12
+    - ITS creation for 2020R1 for iteration 13
+    - ITS creation for 2020R1 for iteration 14
+  Automatic tests failures analysis for 2020R1:
+    - Automatic tests failures analysis for 2020R1 for iteration 10
+    - Automatic tests failures analysis for 2020R1 for iteration 11
+    - Automatic tests failures analysis for 2020R1 for iteration 12
+    - Automatic tests failures analysis for 2020R1 for iteration 13
+    - Automatic tests failures analysis for 2020R1 for iteration 14
+  CUT execution for 2020R1:
+    - CUT tests for 2020R1
+  Integrity testing for 2020R1:
+    - Integrity tests for 2020R1 for iteration 10
+    - Integrity tests for 2020R1 for iteration 11
+    - Integrity tests for 2020R1 for iteration 12
+    - Integrity tests for 2020R1 for iteration 13
+    - Integrity tests for 2020R1 for iteration 14
+  Manual tests execution for 2020R1:
+    - Manual tests for 2020R1

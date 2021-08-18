@@ -1,0 +1,138 @@
+Database, ID, Level, Product, Moduloe, Status, Synopsis
+
+PR_ET_SCADE,PR-6461,Minor,DISPLAY-IDE,Editor,PR_for_modification,"Insert Nplicator" button appear twice in Creator toolbar 
+PR_ET_SCADE,PR-6497,Minor,SCADE Lifecycle,Reporter Display,PR_for_analysis,Some report attributes do not show correctly in Word, Chrome and Firefox 
+PR_ET_SCADE,PR-6498,Minor,SCADE Lifecycle,Reporter Display,PR_for_modification,The resource table names do not show correctly in Reporter 
+PR_ET_SCADE,PR-6547,Minor,DISPLAY-IDE,Widget Library,PR_integrated,Improve folder organisation for widget lib packaging 
+PR_ET_SCADE,PR-6645,Minor,DISPLAY-IDE,CG Integration,PR_entered,Create and store a log file for all target adaptors in the output directory 
+PR_ET_SCADE,PR-6653,Minor,DISPLAY-IDE,Editor,PR_for_modification,"Welcome to SCADE Products Help Resources" page is not displayed 
+PR_ET_SCADE,PR-6767,Minor,DISPLAY-IDE,Editor,PR_for_modification,Unable to open "Welcome to Esterel SCADE Products" document 
+PR_ET_SCADE,PR-6810,Minor,DISPLAY-IDE,User Documentation,PR_for_analysis,Some help PDF files are named with "-65" 
+PR_ET_SCADE,PR-6857,Medium,SCADE System,User Documentation,PR_entered,PDF documents and Help topic can not open when installed System alone 
+PR_ET_SCADE,PR-6862,Minor,DISPLAY-IDE,CG Integration,PR_for_analysis,[Display - Mobile Genration] Error: not enough memory allocated for mobile application 
+PR_ET_SCADE,PR-6865,Medium,DISPLAY-IDE,Editor,PR_entered,object snapshots displays invisible items 
+PR_ET_SCADE,PR-6867,Medium,DISPLAY-IDE,User Documentation,PR_entered,Imcomplet User Documentation about "updatespecification" 
+PR_ET_SCADE,PR-6869,Medium,DISPLAY-IDE,CG Integration,PR_resolved,UV mapping + texture reference= -1 ==> invisible object 
+PR_ET_SCADE,PR-6873,Minor,Rapid Prototyper,User Documentation,PR_for_modification,<Welcome to Esterel Scade Products> not-working link 
+PR_ET_SCADE,PR-6886,Medium,DISPLAY-IDE,Editor,PR_resolved,Size of Specification Properties window sometimes seems inadequate with respect to its content 
+PR_ET_SCADE,PR-6887,Medium,DISPLAY-IDE,Editor,PR_resolved,Width of Reference Object Properties window is smaller than width of Specification Properties window 
+PR_ET_SCADE,PR-6888,Medium,DISPLAY-IDE,Editor,PR_in_review,Width of Line Width Table GUI columns are not large enough to see the column titles 
+PR_ET_SCADE,PR-6892,Minor,DISPLAY-IDE,Checker,PR_for_modification,Mask Object Rule works incorrect on text area 
+PR_ET_SCADE,PR-6899,Minor,DISPLAY-IDE,Editor,PR_resolved,Extend Visualization Area command should be accessible in the "Zoom & Fullscreen" toolbar 
+PR_ET_SCADE,PR-6903,Medium,DISPLAY-IDE,Editor,PR_for_modification,Incorrect bounding box for Reference Objects with a hook (such as the Panel widget) 
+PR_ET_SCADE,PR-6918,Severe,SUITE-IDE,Display integration,PR_resolved,SCADE Suite + Display Android adaptor generation fails when SCADE Suite project contains imported C code 
+PR_ET_SCADE,PR-6921,Medium,DISPLAY-IDE,Editor,PR_entered,Default resource tables from File>Specification are editable 
+PR_ET_SCADE,PR-6932,Minor,DISPLAY-IDE,User Documentation,PR_for_modification,Add in User documentation a note about the differences between an input and a constant variable 
+PR_ET_SCADE,PR-6940,Minor,DISPLAY-IDE,Editor,PR_entered,Extended Visualization Area: possibility to extend automatically when creating objects on or outside the boundaries 
+PR_ET_SCADE,PR-6949,Minor,DISPLAY-IDE,CG Integration,PR_entered,[Mobile Generation] The mobile generation can be blocked when the ANDROID target is not detected 
+PR_ET_SCADE,PR-6996,Minor,SCADE Lifecycle,Reporter Display,PR_resolved,The US english version of the Reporter Internationalization .properties file should be distributed in the SCADE installation 
+PR_ET_SCADE,PR-7010,Severe,DISPLAY-IDE,Editor,PR_integrated,dll with hooks 
+PR_ET_SCADE,PR-7046,Medium,DISPLAY-IDE,Editor,PR_resolved,arcEllipse under filterRotationContainer: filtered angles cannot be plugged 
+PR_ET_SCADE,PR-7047,Severe,DISPLAY-IDE,CG Integration,PR_resolved,Mobile: Bad coordinates computation 
+PR_ET_SCADE,PR-7054,Medium,DISPLAY-IDE,Editor,PR_resolved,Pointer Id: The interactive primitive shall react for the pointer Id are identical or its pointer id is -1 
+PR_ET_SCADE,PR-7059,Minor,DISPLAY-IDE,Editor,PR_for_modification,Save As Reference Object: the file chooser displays the insert through copy check box 
+PR_ET_SCADE,PR-7083,Severe,DISPLAY-IDE,Editor,PR_resolved,Issues with Code output and Binary output directories 
+PR_ET_SCADE,PR-7087,Minor,DISPLAY-IDE,Editor,PR_resolved,Flickering problem with filling color when creating an arc ellipse. 
+PR_ET_SCADE,PR-7102,Minor,DISPLAY-IDE,Editor,PR_entered,Migrated from sgf to sgfx failed when sgf contains ogf 
+PR_ET_SCADE,PR-7113,Medium,DISPLAY-IDE,Editor,PR_resolved,TextArea: All Chinese characters should display  
+PR_ET_SCADE,PR-7119,Minor,DISPLAY-IDE,CG Integration,PR_for_modification,"Pressed" and "Released" outputs of pointer even listener should be handled the same way in Windows, Android and iOS 
+PR_ET_SCADE,PR-7120,Medium,DISPLAY-IDE,CG Integration,PR_entered,Code or Binary generation fails when specification path contains '&' character 
+PR_ET_SCADE,PR-7123,Minor,DISPLAY-IDE,CG Integration,PR_for_modification,[Display-Android Generation] Install.bat is executed after the build even if an error is raised  
+PR_ET_SCADE,PR-7125,Medium,DISPLAY-IDE,Editor,PR_entered,Nplicator: "insert through copy" work bad when add Nplicator object 
+PR_ET_SCADE,PR-7127,Medium,SCADE A661,User Documentation,PR_resolved,"Exercise 5.27:  Setting UA Page Creator ARINC 661 Options" needs to be updated 
+PR_ET_SCADE,PR-7131,Minor,DISPLAY-IDE,Editor,PR_entered,Plug displays wrong when multiple select Translation and Rotation groups 
+PR_ET_SCADE,PR-7134,Minor,DISPLAY-IDE,Editor,PR_resolved,Migrating an output variable / local from 6.4 to 6.5 
+PR_ET_SCADE,PR-7136,Severe,DISPLAY-IDE,Editor,PR_entered,Default OpenGL line width table should be updated 
+PR_ET_SCADE,PR-7137,Medium,DISPLAY-IDE,CG Integration,PR_entered,Problem with texture mapping on two point shapes with bended segment 
+PR_ET_SCADE,PR-7138,Medium,DISPLAY-IDE,CG Integration,PR_resolved,Line stipple is lost after the draw of a shape with polygon smooth 
+PR_ET_SCADE,PR-7139,Medium,DISPLAY-IDE,Animation,PR_entered,Extened Visualization Area displays incorrect when Animation on Enhanced full-screen mode & Distortion full-screen mode 
+
+CR_SCADE,CR-5913,Minor,SUITE-IDE,User Documentation,CR_resolved,Error "font" is raised in the LibrariesManual_SC-LM-60.pdf 
+CR_SCADE,CR-11048,Minor,SUITE-IDE,Display integration,CR_resolved,Give access to the Locate function from the Suite/Display Mapping panel 
+CR_SCADE,CR-11796,Minor,CVK,User Documentation,CR_for_modification,Reference the updated ISO 1999 standard in CVK 
+CR_SCADE,CR-12335,Minor,CVK,User Documentation,CR_for_modification,Mention in CVK user manual that structural code coverage should be checked on target 
+CR_SCADE,CR-12724,Medium,DISPLAY-IDE,Editor,CR_resolved,Rich Text:Reference object disappear when rich text object contain Repeat character and plugged on Text parameter 
+CR_SCADE,CR-12741,Minor,SUITE-IDE,Display integration,CR_pre_entered,Scade Suite crash when launch behavior object 
+CR_SCADE,CR-12895,Minor,SUITE-IDE,User Documentation,CR_pre_entered,Should provide from the top-level startup page a product specific No Installation page information if this product not installed. 
+CR_SCADE,CR-12907,Minor,DISPLAY-IDE,CG Integration,CR_for_modification,Problem with mouse management in some Rapid Prototyper widgets 
+CR_SCADE,CR-13072,Minor,SUITE-IDE,Display integration,CR_pre_entered,Connect button was unavailable after Remove All Connections and again to Connect 
+CR_SCADE,CR-13463,Minor,SCADE Lifecycle,Reporter Display,CR_for_modification,SCADE Display report: hyperlink references shall be stable between 2 report generation 
+CR_SCADE,CR-13546,Medium,DISPLAY-IDE,Editor,CR_resolved,New object is not masked by the clip box when using the hook. 
+CR_SCADE,CR-13594,Minor,SCADE Lifecycle,Reporter Display,CR_for_modification,Container screenshots should be reported when container visibility is set to false 
+CR_SCADE,CR-13611,Minor,DISPLAY-IDE,Animation,CR_resolved,Add a button to open "Text Area Editing" window or "Rich Text Editing" window in animation 
+CR_SCADE,CR-13612,Minor,DISPLAY-IDE,Editor,CR_for_modification,Bitmap not updated on Visualization Area before reloading specification 
+CR_SCADE,CR-13616,Minor,DISPLAY-IDE,Checker,CR_resolved,"Arc,circle and crown rule" doesn report error when arc angle=0 
+CR_SCADE,CR-13617,Medium,DISPLAY-IDE,Editor,CR_for_modification,Variable representation value not be copied when click 'Ctrl+D'/'Ctrl+C', 'Ctrl+V' to copy a variable 
+CR_SCADE,CR-13618,Minor,DISPLAY-IDE,Checker,CR_resolved,"Arc,circle and crown rule" should not work on Crown object when start angle=0 and end angle=360 
+CR_SCADE,CR-13636,Minor,SCADE Lifecycle,Reporter Display,CR_in_review,Reporter Generation: Output directory is empty after select a directory and reopen the panel 
+CR_SCADE,CR-13638,Severe,SCADE Lifecycle,Reporter Display,CR_for_modification,Crash when generate SDY report with Chinese characters on Win XP 
+CR_SCADE,CR-13641,Medium,SUITE-IDE,Display integration,CR_resolved,Resizing the display window when cosimulation in Pause mode does NOT resize display, which seems to be freezed 
+CR_SCADE,CR-13642,Medium,SUITE-IDE,Display integration,CR_resolved,Downsizing the display does not resize well the lines 
+CR_SCADE,CR-13647,Medium,DISPLAY-IDE,CG Integration,CR_integrated,If Standalone executable generation fails, do not launch the old executable 
+CR_SCADE,CR-13649,Medium,DISPLAY-IDE,CG Integration,CR_resolved,Problems with standalone executable and resizing/moving 
+CR_SCADE,CR-13653,Minor,DISPLAY-IDE,Editor,CR_resolved,The Texture Table "Repeat" column title is truncated (to Rep...) on some machines 
+CR_SCADE,CR-13665,Minor,SCADE A661,User Documentation,CR_reworked,Have a minimal explanation of A661 widgets in the User Documentation 
+CR_SCADE,CR-13672,Minor,DISPLAY-IDE,Editor,CR_for_modification,Sometimes the Requirements Panel visibility is not in accordance with the Requirements Panel button state 
+CR_SCADE,CR-13688,Minor,DISPLAY-IDE,Editor,CR_for_modification,Copy-paste of Reference or Nplicator loose the OGFX path and the parameter plugs 
+CR_SCADE,CR-13732,Minor,SUITE-IDE,User Documentation,CR_entered,Add a Note about location of the Eclipse project 
+CR_SCADE,CR-13742,Medium,DISPLAY-IDE,Editor,CR_for_modification,Abusive save of SGFX/OGFX files when modifying the traceability 
+CR_SCADE,CR-13817,Minor,DISPLAY-IDE,Eclipse API,CR_resolved,Eclipse API for display is not listed  list features in "About Eclipse Features" window in Help>About 
+CR_SCADE,CR-13851,Medium,DISPLAY-IDE,Editor,CR_resolved,Adding a rotation filter group can freeze IDE 
+CR_SCADE,CR-13905,Minor,DISPLAY-IDE,Widget Library,CR_integrated,performance issue on slider 
+CR_SCADE,CR-13911,Minor,DISPLAY-IDE,Editor,CR_for_modification,Bad cursor on Structure panel, Properties panel and menus 
+CR_SCADE,CR-13918,Minor,SUITE-IDE,User Documentation,CR_entered,Add user information regarding Design Checker capabilities with  SCADE Suite TCL API  
+CR_SCADE,CR-13925,Minor,SUITE-IDE,User Documentation,CR_entered,Rework part of SCADE Suite Eclipse API Installation 
+CR_SCADE,CR-13930,Medium,DISPLAY-IDE,Editor,CR_resolved,Tooltip to resize object palette is not displayed 
+CR_SCADE,CR-13938,Minor,SCADE Lifecycle,Reporter Display,CR_for_modification,Bi-font and Text object in OneCounter Example not generated correctly 
+CR_SCADE,CR-13942,Minor,SUITE-IDE,User Documentation,CR_pre_entered,Startup page resources corresponding to the product can be installed although an SCADE product is not installed. 
+CR_SCADE,CR-13943,Minor,SUITE-IDE,User Documentation,CR_pre_entered,Related page can not be displayed. 
+CR_SCADE,CR-13968,Minor,DISPLAY-IDE,Editor,CR_resolved,Templates are missed when create new model 
+CR_SCADE,CR-14000,Minor,SCADE System,User Documentation,CR_integrated,List all categories available for SCADE System ATY file 
+CR_SCADE,CR-14099,Medium,DISPLAY-IDE,Editor,CR_for_modification,Imported code: cannot define parameter with variable size array type 
+CR_SCADE,CR-14237,Minor,SUITE-IDE,User Documentation,CR_integrated,Provide location paths for .tot file for Windows 7 environment 
+CR_SCADE,CR-14245,Medium,DISPLAY-IDE,Widget Library,CR_integrated,Combobox - When choosing one item, the items should be wrapped up. 
+CR_SCADE,CR-14247,Medium,DISPLAY-IDE,Widget Library,CR_integrated,The Radiobox seems not able to choose one item  
+CR_SCADE,CR-14295,Minor,DISPLAY-IDE,CG Integration,CR_entered,UDP communication is needed to integrate Display (or Suite + Display) pages 
+CR_SCADE,CR-14375,Minor,SCADE Lifecycle,Reporter Display,CR_for_modification,Reporter generates empty image when Group contains invisible object 
+CR_SCADE,CR-14388,Severe,SCADE Lifecycle,Reporter Display,CR_for_modification,Wrong images on objects which have textures 
+CR_SCADE,CR-14457,Minor,DISPLAY-IDE,Editor,CR_for_analysis,When a line is focused on the data dictionnary, and the user presses up  or down, the focus goes somewhere else.  
+CR_SCADE,CR-14462,Minor,DISPLAY-IDE,Editor,CR_for_modification,Auto completion does not work when you navigate using 'tab' key. 
+CR_SCADE,CR-14484,Minor,SCADE Lifecycle,Reporter Display,CR_for_modification,Different screenshot is generated on a screenshot with font after reopen IDE 
+CR_SCADE,CR-14493,Minor,SUITE-IDE,User Documentation,CR_entered,Model Storage (IO) diagram should be not referenced in the Scade Language Metamodels part. 
+CR_SCADE,CR-14505,Severe,DISPLAY-IDE,Editor,CR_integrated,Freeze of SCADE Display when updating a specification 
+CR_SCADE,CR-14525,Severe,DISPLAY-IDE,Editor,CR_for_analysis,Memory leak during SCADE Display batch updateSpecification command on huge model 
+CR_SCADE,CR-14529,Medium,DISPLAY-IDE,Editor,CR_for_modification,Zoom in/out for value x4 does not center on selected object 
+CR_SCADE,CR-14553,Minor,CVK,User Documentation,CR_entered,Remarks regarding content of Table A.1: C subset definition 
+CR_SCADE,CR-14554,Minor,CVK,User Documentation,CR_entered,Add one section dedicated to C compiler Optimizations management in Ref Man 
+CR_SCADE,CR-14567,Medium,DISPLAY-IDE,Editor,CR_for_analysis,SGFX contain Layer PGFX cannot be opened with other version. 
+CR_SCADE,CR-14623,Minor,DISPLAY-IDE,Editor,CR_resolved,Modify "Active" property of Stencil mask to "Activity" 
+CR_SCADE,CR-14624,Minor,DISPLAY-IDE,Editor,CR_resolved,No default value of Translate 
+CR_SCADE,CR-14639,Minor,DISPLAY-IDE,Editor,CR_for_analysis,Support of point primitive 
+CR_SCADE,CR-14686,Minor,SCADE System,User Documentation,CR_resolved,Add a Note for continuous creation of element from the palette 
+CR_SCADE,CR-14696,Severe,DISPLAY-IDE,Editor,CR_resolved,Selecting any kind of container or reference primitive systematically sets haloing for next graphical primitive to TRUE 
+CR_SCADE,CR-14697,Medium,DISPLAY-IDE,Editor,CR_for_modification,widget library template: texture table path shall use env var instead of being absolute 
+CR_SCADE,CR-14698,Minor,SUITE-IDE,User Documentation,CR_resolved,SC-UM-6X: Missing hyperlink on Figure7.15 in Generating Reports about Model Comp.  
+CR_SCADE,CR-14699,Minor,DISPLAY-IDE,Editor,CR_for_modification,Creating a new specification of type "Widget Library" should give access to all the object examples in the Palette 
+CR_SCADE,CR-14705,Minor,DISPLAY-IDE,User Documentation,CR_resolved,The values of escape code for Rich Text should be easier to find 
+CR_SCADE,CR-14709,Severe,DISPLAY-IDE,Editor,CR_for_modification,No means to detect that an OGFX model points to an unknown texture id 
+CR_SCADE,CR-14714,Minor,DISPLAY-IDE,Editor,CR_for_modification,Wrong properties displayed after moving an object 
+CR_SCADE,CR-14719,Medium,SCADE Lifecycle,Reporter Display,CR_for_analysis,Images of Nplicator objects are not generated in Report (HTML and RTF) 
+CR_SCADE,CR-14729,Medium,DISPLAY-IDE,Editor,CR_for_modification,Structure Tree is renamed when a variable in the dictionnary is edited. 
+CR_SCADE,CR-14732,Medium,DISPLAY-IDE,Editor,CR_for_analysis,Loss of data when using unicode characters 
+CR_SCADE,CR-14733,Minor,DISPLAY-IDE,User Documentation,CR_resolved,In the documentation (sgluWriteRichText), it is not specified that escape sequences have to start with an ASCII escape character \x1B 
+CR_SCADE,CR-14734,Minor,DISPLAY-IDE,Editor,CR_for_analysis,[Rich Text] Add the possibility to chose "no color" as background color 
+CR_SCADE,CR-14737,Medium,SCADE Lifecycle,User Documentation,CR_resolved,[QTE] Missing documentation about SSM::set and SSM::alias commands for direct array index access 
+CR_SCADE,CR-14738,Minor,SCADE Lifecycle,User Documentation,CR_resolved,Remove compatibility with Framemaker from LifeCycle User manual 
+CR_SCADE,CR-14744,Showstopper,DISPLAY-IDE,Installation,CR_for_modification,Not possible to launch Font Code Generator when using a license locked to a FLEXid dongle 
+CR_SCADE,CR-14749,Medium,SUITE-IDE,User Documentation,CR_resolved,Missing on-line help about option "User-provided sensor declaration" of the Simulink Wrapper 
+CR_SCADE,CR-14763,Minor,DISPLAY-IDE,CG Integration,CR_in_review,Standalone executable: Capability to lock position and size in .ini file 
+CR_SCADE,CR-14764,Minor,DISPLAY-IDE,CG Integration,CR_in_review,Standalone executable: Capability to create a window with no title bar or frame decoration 
+CR_SCADE,CR-14766,Minor,DISPLAY-IDE,Editor,CR_for_modification,"Save" and "Save As" dialog box title is "Open" 
+CR_SCADE,CR-14788,Minor,DISPLAY-IDE,Font Management,CR_resolved,Remove Chinese26 from default font table + add new fonts in distribution 
+CR_SCADE,CR-14793,Minor,DISPLAY-IDE,Editor,CR_for_analysis,stt file is not updated when migrate the sgfx file 
+CR_SCADE,CR-14805,Medium,DISPLAY-IDE,Editor,CR_for_analysis,Migration on text and text area failed 
+CR_SCADE,CR-14811,Medium,DISPLAY-IDE,Editor,CR_for_modification,Synchronize variable action does not work when variables are sorted by name in the dictionary 
+CR_SCADE,CR-14817,Minor,DISPLAY-IDE,CG Integration,CR_entered,[Mobile] Option to specify orientation of generated application (horizontal/vertical) 
+CR_SCADE,CR-14829,Minor,SCADE Lifecycle,Reporter Display,CR_entered,Issues on screenshots of generating report in batch mode 
+CR_SCADE,CR-14830,Medium,SCADE Lifecycle,Reporter Display,CR_entered,Some screenshots are missing in reporter 
+

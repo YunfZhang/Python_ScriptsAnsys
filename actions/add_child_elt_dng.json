@@ -3,9 +3,23 @@
     "actions": [
         {
             "type": "ADD",
-            "parent_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_3e78673784cf4bf3a3d16fe6a0fe15de",
+            "parent_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_0dda92094e414cab8fad0a09ff06a5e3",
             "element": {
-                "name": "child_req"
+                "name": "child_req31"
+            }   
+        },
+		{
+            "type": "ADD",
+            "parent_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_0dda92094e414cab8fad0a09ff06a5e3",
+            "element": {
+                "name": "child_req32"
+            }   
+        },
+		{
+            "type": "ADD",
+            "parent_id": "https://shdvm2ws2012.win.ansys.com:9443/rm/resources/MB_0dda92094e414cab8fad0a09ff06a5e3",
+            "element": {
+                "name": "child_req33"
             }   
         }
     ]

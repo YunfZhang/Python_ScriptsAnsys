@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<globals>
+    <type name="U_Basic_Uint32" oid="82666019-6eff-44a6-8832-e3d00b4b4af4">
+        <definition>uint32</definition>
+    </type>
+    <type name="U_Basic_Uint16" oid="a1eb7d7f-fb77-47bd-b266-a2053b9dd5a7">
+        <definition>uint16</definition>
+    </type>
+    <type name="t_global_int" oid="f2bc3ce1-714e-4786-9812-046898b0774d">
+        <definition>int</definition>
+    </type>
+    <type name="Enum_1" oid="b66949ad-0a75-4982-ad23-81af811acab2">
+        <definition>enum {E1_1: 1, E1_2: 2, E1_3: 3}</definition>
+    </type>
+    <type name="U_Basic_Bool" oid="a59be367-2cc4-4284-aecd-5def0a47e4cc">
+        <definition>bool</definition>
+    </type>
+    <type name="Array_1" oid="aea6d886-164e-48e3-8390-36d9bcb436df">
+        <definition>float32^2^3</definition>
+    </type>
+    <type name="Struct_1" oid="fa65ec6c-158c-403c-b1c2-1663430453e5">
+        <definition>{S1: int, S2: int8}</definition>
+    </type>
+    <type name="U_Basic_Int64" oid="b5dc6415-ac16-4358-a105-244b67454300">
+        <definition>int64</definition>
+    </type>
+    <type name="U_Basic_Int8" oid="35d08ab1-8466-4c34-b454-d8380eba7bec">
+        <definition>int8</definition>
+    </type>
+    <type name="t_global_bool" oid="7c133fc6-1998-4270-bbb2-58d158078aaa">
+        <definition>bool</definition>
+    </type>
+    <type name="U_Basic_Uint64" oid="52af53ee-e22a-44be-ae1a-9b4d0ea48062">
+        <definition>uint64</definition>
+    </type>
+    <type name="NewType_3" oid="aa4c9d65-9441-474e-a68a-373cd9fc0088">
+        <definition>{label: bool}</definition>
+    </type>
+    <type name="NewType_4" oid="89782ae3-345f-4cc0-b7d2-128f4c440ad7">
+        <definition>enum {value_3}</definition>
+    </type>
+    <type name="t_global_real_2" oid="0c57466d-e720-4366-a7eb-91da17d0dbfa">
+        <definition>real^2</definition>
+    </type>
+    <type name="NewType_1" oid="862e15d9-9d20-4847-9bdd-37c316ff54d9">
+        <definition>{label: bool, label_1: bool, label_2: t_global_real_2}</definition>
+    </type>
+    <type name="U_Basic_Char" oid="bcb206c5-a9c8-46a2-81b9-f568f32af00b">
+        <definition>char</definition>
+    </type>
+    <type name="Basic_1" oid="ba6c394c-9ee5-47b2-8386-d97cd4e8afe1">
+        <definition>int64</definition>
+    </type>
+    <type name="NewType_2" oid="229383d0-b9f4-46fe-8e0d-098d26195ac5">
+        <definition>imported _myType</definition>
+    </type>
+    <type name="U_Basic_Real" oid="484e5e69-1567-4f1a-8c45-746917be272b">
+        <definition>real</definition>
+    </type>
+    <type name="U_Basic_Float32" oid="8905006a-bb4a-47c7-a1e4-dff5ad6ab580">
+        <definition>float32</definition>
+    </type>
+    <type name="U_Basic_Int" oid="6ecc0a9e-7911-482a-93c9-fe841a8eee4d">
+        <definition>int</definition>
+    </type>
+    <constant name="S_Int_9" oid="5a09a5ed-39e1-40fa-92c4-6028cc826990" type="int">
+        <init>9</init>
+    </constant>
+    <type name="T_Combination_1" oid="8e4c34cc-d7e0-44f2-b5c9-b0b38cc51c8a">
+        <definition>{CS_1: bool, CS_2: Basic_1, CS_3: Array_1, CS_4: Enum_1, CS_6: Struct_1, CS_7: int^S_Int_9^2, CS_8: {AS_8_1: real, AS_8_2: uint8^3}}</definition>
+    </type>
+    <type name="NewType_test" oid="db6fcfdd-46f3-460b-b248-e7e5fd57756f">
+        <definition>enum {value, value_1, value_2}</definition>
+    </type>
+    <type name="U_Basic_Float64" oid="0ed40a89-22ae-44c0-90fe-254e956eaa1e">
+        <definition>float64</definition>
+    </type>
+    <type name="U_Basic_Uint8" oid="c7b43f91-34c9-4a02-9c92-09257e95ff34">
+        <definition>uint8</definition>
+    </type>
+    <type name="U_Basic_Int16" oid="cfbcdc21-4b85-4ac3-a266-e9828ced41b3">
+        <definition>int16</definition>
+    </type>
+    <type name="NewType_1_1" oid="e88490ca-2c76-43f2-aec8-b02224768fd6">
+        <definition>{label: int, label_1: real, label_2: int^2, label_3: float32^2^5}</definition>
+    </type>
+    <type name="NewType_5" oid="9ba89631-df81-4fd6-8f4a-65cbb4b2009b">
+        <definition>{label: {label: NewType_1}}</definition>
+    </type>
+    <type name="U_Basic_Wchar" oid="588735d1-a568-43be-9876-56cef6379579">
+        <definition>wchar</definition>
+    </type>
+    <type name="U_Basic_Int32" oid="c0e5162c-807b-4f16-8b3b-cd48f0454fad">
+        <definition>int32</definition>
+    </type>
+    <constant name="S_Bool_False" oid="eaa18a09-8a3c-43b2-890b-493b5da62aee" type="bool">
+        <init>false</init>
+    </constant>
+    <constant name="S_Basic_Int16_6" oid="d3dea5ec-be99-42c3-8741-f94fa0a9ea72" type="U_Basic_Int16">
+        <init>6</init>
+    </constant>
+    <constant name="S_Wchar_98" oid="35540eda-41a3-491b-b2bd-37421a7b3c73" type="wchar">
+        <init>98</init>
+    </constant>
+    <constant name="S_Basic_Int_27" oid="ad536ddc-c1d9-44cb-a616-fe43455598bc" type="U_Basic_Int">
+        <init>27</init>
+    </constant>
+    <constant name="S_Uint16_6" oid="32f07d2b-c03f-4cd4-b569-cfafc09227ef" type="uint16">
+        <init>6</init>
+    </constant>
+    <constant name="c_t_global_real_2" oid="6625103a-71a8-4c24-8326-d541d74942d3" type="t_global_real_2">
+        <init>[50.0, 10.0]</init>
+    </constant>
+    <constant name="S_Basic_Int8_8" oid="e9c153fa-da6a-46f4-bd68-52babbc4f615" type="U_Basic_Int8">
+        <init>8</init>
+    </constant>
+    <constant name="S_Basic_Uint32_2" oid="c8e01616-9987-40fb-86f3-aa0cc5444343" type="U_Basic_Uint32">
+        <init>2</init>
+    </constant>
+    <constant name="S_Int_Ne24_Expr" oid="eaa18a09-8a3c-43b2-890b-493b5da62aee" type="int">
+        <init>(6 - 30)</init>
+    </constant>
+    <constant name="c_t_global_bool" oid="8b6b5d14-02af-4f35-a816-6648f44ac5dd" type="t_global_bool">
+        <init>true</init>
+    </constant>
+    <constant name="S_Char_97" oid="d8a4f312-6bb0-4673-bb1b-e668703cd4e3" type="char">
+        <init>97</init>
+    </constant>
+    <constant name="S_Int_2" oid="c19b362d-0ae2-43aa-9221-2224f4823118" type="int">
+        <init>2</init>
+    </constant>
+    <constant name="S_Basic_Float32_32" oid="7010db74-fa7f-4f13-8c18-c3341973a209" type="U_Basic_Float32">
+        <init>32.0</init>
+    </constant>
+    <constant name="S_Int8_8" oid="82cfc3bb-e891-458c-9836-b126adca30a4" type="int8">
+        <init>8</init>
+    </constant>
+    <constant name="S_Int_9_Ref" oid="db9d188c-6148-431b-a59b-bec2ec126d58" type="int">
+        <init>S_Int_9</init>
+    </constant>
+    <constant name="C_Combination_1" oid="656116e0-68b7-454e-94e6-f2a6f5e32913" type="{S1: Array_1, S2: Struct_1}^S_Int_2">
+        <init>[{S1: [[S_Basic_Float32_32, 0.0], [(float32 S_Basic_Int16_6), 0.0], [3.2, 0.0]], S2: {S1: 5, S2: S_Int8_8}}, {S1: [[0.0, 1.0], [2.0, 3.0], [4.0, 5.0]], S2: {S1: S_Int_9_Ref, S2: 0}}]</init>
+    </constant>
+    <constant name="S_Int32_2" oid="9bf2eb46-8eb6-42c5-8462-83baee39e11c" type="int32">
+        <init>2</init>
+    </constant>
+    <constant name="NewConstantabc" oid="8b93d1b5-3a62-493b-80b1-3807eac5ac6f" type="int^5">
+        <init>[1, 2, 3, 4, 5]</init>
+    </constant>
+    <constant name="S_Int_0" oid="4221292b-5132-417f-9c53-84c90597411e" type="int">
+        <init>0</init>
+    </constant>
+    <constant name="S_Uint32_2" oid="df9e80c1-0d41-4f1e-9ba7-642d770d3b3a" type="uint32">
+        <init>2</init>
+    </constant>
+    <constant name="S_Basic_Real_10" oid="4f050b44-2eb0-4eb4-95bf-d71d4c73a92c" type="U_Basic_Real">
+        <init>10.0</init>
+    </constant>
+    <constant name="S_Basic_Float64_64" oid="da630047-b976-4119-81d4-d03f6c2a03ea" type="U_Basic_Float64">
+        <init>64.0</init>
+    </constant>
+    <constant name="S_Basic_Uint64_4" oid="54a1aa20-8b96-4677-bed8-671aa5c3843a" type="U_Basic_Uint64">
+        <init>4</init>
+    </constant>
+    <constant name="S_Basic_Uint16_6" oid="551d55c9-d290-4ebf-822f-c17008c1d3da" type="U_Basic_Uint16">
+        <init>6</init>
+    </constant>
+    <constant name="S_Int64_4" oid="77ab6f5c-840d-48bf-9c4c-bc5fce7ed48c" type="int64">
+        <init>4</init>
+    </constant>
+    <constant name="S_Uint64_4" oid="0b6a59d3-b5f2-4c35-813e-1561bf351570" type="uint64">
+        <init>4</init>
+    </constant>
+    <constant name="S_Float64_64" oid="db887364-1ec3-455c-b19e-048a139bd5e5" type="float64">
+        <init>64.0</init>
+    </constant>
+    <constant name="C_Array_1" oid="6a9851ac-de70-4a33-baf7-26ad8176bcb9" type="Array_1">
+        <init>[[0.0]]</init>
+    </constant>
+    <constant name="S_Basic_Char_100" oid="d1d5f929-82ab-421a-b166-903311f9350b" type="U_Basic_Char">
+        <init>100</init>
+    </constant>
+    <constant name="S_Basic_Int32_2" oid="feb3bcc7-d56e-4223-8136-a3e072699b92" type="U_Basic_Int32">
+        <init>2</init>
+    </constant>
+    <constant name="S_Real_3" oid="7292fd82-851b-4a0a-8469-3aeb7fd0faab" type="real">
+        <init>3.0</init>
+    </constant>
+    <constant name="S_Int_Ne5" oid="01dce4ba-deae-45a8-904d-620cd4819930" type="int">
+        <init>(- 5)</init>
+    </constant>
+    <constant name="S_Basic_Bool_False" oid="f9b6ee38-47b6-43fc-84fc-102786e42dcc" type="U_Basic_Bool">
+        <init>false</init>
+    </constant>
+    <constant name="c_t_global_int" oid="4ee1e5ea-d4a0-4b4a-a2dc-84db6601f5ce" type="t_global_int">
+        <init>3</init>
+    </constant>
+    <constant name="S_Float32_32" oid="708f7aeb-1813-49d7-b214-d1245a84d153" type="float32">
+        <init>32.0</init>
+    </constant>
+    <constant name="C_T_Combination_1" oid="c7c69ec0-24c3-4756-9e06-52a3c806fe82" type="T_Combination_1">
+        <init>{CS_1: false, CS_2: 0, CS_3: [[0.0]], CS_4: E1_1, CS_6: {S1: 0, S2: 0}, CS_7: [[0]], CS_8: {AS_8_1: 0.0, AS_8_2: [0]}}</init>
+    </constant>
+    <constant name="S_Basic_Uint8_8" oid="998fe555-4f54-4d31-97bf-01cfb537e71d" type="U_Basic_Uint8">
+        <init>8</init>
+    </constant>
+    <constant name="S_Int_20_Expr" oid="578a2b20-8165-4fcf-a2ad-4b16da3df927" type="int">
+        <init>(5 + 15)</init>
+    </constant>
+    <constant name="S_Basic_Bool_True" oid="ec1705da-03de-4276-9cb8-067c1b0a2f7d" type="U_Basic_Bool">
+        <init>true</init>
+    </constant>
+    <constant name="S_Basic_Int64_4" oid="6c3df760-8aaa-4b38-ace3-36bfaccff405" type="U_Basic_Int64">
+        <init>4</init>
+    </constant>
+    <constant name="S_Int16_6" oid="236de669-1495-4945-924c-2956ff33a2a6" type="int16">
+        <init>6</init>
+    </constant>
+    <constant name="S_Uint8_8" oid="c70f7cb7-1a49-44c8-a4eb-e8cfc2c5c5f2" type="uint8">
+        <init>8</init>
+    </constant>
+    <constant name="S_Basic_Wchar_99" oid="d158577e-87c9-4698-b597-5a17f4794425" type="U_Basic_Wchar">
+        <init>99</init>
+    </constant>
+    <constant name="C_Enum_1" oid="221dc698-f06d-4acd-875d-8c3d40b00422" type="Enum_1">
+        <init>E1_1</init>
+    </constant>
+    <constant name="S_Bool_True" oid="6d7ce189-0c9b-486c-a06e-5c86fe0c1fff" type="bool">
+        <init>true</init>
+    </constant>
+    <constant name="C_Struct_1" oid="fded431b-a533-4689-98b3-5e929d2ec19b" type="Struct_1">
+        <init>{S1: 0, S2: 0}</init>
+    </constant>
+    <type name="Int2" oid="c31d5d0e-e413-4fa2-b9e8-2b5f27915f66">
+        <definition>int^2</definition>
+    </type>
+    <type name="Struct2" oid="e55206be-f7bd-4083-9924-122b5684569d">
+        <definition>{l1: real, l2: int}</definition>
+    </type>
+    <type name="Str_Array" oid="75b4e4b6-c94e-42b6-aefc-9922b9e4d4a0">
+        <definition>{l1: {l1: Struct2, l2: Int2}, l2: {l1: Int2, l2: bool}}</definition>
+    </type>
+    <constant name="replication" oid="af34b36f-6aa5-4ec7-b61d-a14b02cf0f12" type="int">
+        <init>3</init>
+    </constant>
+    <constant name="Comb" oid="a3f7ba27-c2c5-4a40-ad2a-78e81036b725" type="Str_Array">
+        <init>{l1: {l1: {l1: 20.0, l2: 10}, l2: [5, 20]}, l2: {l1: [30, 2], l2: true}}</init>
+    </constant>
+    <constant name="C_Struct2" oid="ac5c8ae4-5bb4-46ee-b0a3-f3fa285c0fb9" type="Struct2">
+        <init>{l1: 20.0, l2: 5}</init>
+    </constant>
+    <constant name="C_Int2" oid="81755f81-5601-492e-8062-588e0dc158fb" type="Int2">
+        <init>[1, 2]</init>
+    </constant>
+</globals>
+
+<!-- crc32 : 3088625646 -->
+

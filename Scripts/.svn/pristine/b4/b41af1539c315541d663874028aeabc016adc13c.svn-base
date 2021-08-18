@@ -1,0 +1,38 @@
+# Configuration VSTS Scripts
+# NOTE: it shall start by "---"
+---
+
+# Information related to TFS
+Team instance: https://tfs.ansys.com:8443/tfs/ANSYS_Development/
+API token: un4fifm5fk3q66htvvkwgiwysldapgw2iw6buzzsuak3iapdx6ia
+Areas:
+  - Portfolio\Work Items\Program SBU\SCADE\SCADE Display\IDE
+Author: Yiming Chen
+User Stories & Tasks:
+  ITS creation for 2020R2#Portfolio\2020-PI-1:
+    - ITS creation for 2020R2 for iteration 01#Portfolio\2020-PI-1\2020-IT-01
+    - ITS creation for 2020R2 for iteration 02#Portfolio\2020-PI-1\2020-IT-02
+    - ITS creation for 2020R2 for iteration 03#Portfolio\2020-PI-1\2020-IT-03
+    - ITS creation for 2020R2 for iteration 04#Portfolio\2020-PI-1\2020-IT-04
+    - ITS creation for 2020R2 for iteration 05#Portfolio\2020-PI-1\2020-IT-05
+    - ITS creation for 2020R2 for iteration 06#Portfolio\2020-PI-1\2020-IT-06
+  Automatic tests failures analysis for 2020R2#Portfolio\2020-PI-1:
+    - Automatic tests failures analysis for 2020R2 for iteration 01#Portfolio\2020-PI-1\2020-IT-01
+    - Automatic tests failures analysis for 2020R2 for iteration 02#Portfolio\2020-PI-1\2020-IT-02
+    - Automatic tests failures analysis for 2020R2 for iteration 03#Portfolio\2020-PI-1\2020-IT-03
+    - Automatic tests failures analysis for 2020R2 for iteration 04#Portfolio\2020-PI-1\2020-IT-04
+    - Automatic tests failures analysis for 2020R2 for iteration 05#Portfolio\2020-PI-1\2020-IT-05
+    - Automatic tests failures analysis for 2020R2 for iteration 06#Portfolio\2020-PI-1\2020-IT-06
+  CUT execution for 2020R2#Portfolio\2020-PI-1:
+    - CUT tests for 2020R2#Portfolio\2020-PI-1\2020-IT-05
+    - CUT tests for 2020R2#Portfolio\2020-PI-1\2020-IT-06
+  Integrity testing for 2020R2#Portfolio\2020-PI-1:
+    - Integrity tests for 2020R2 for iteration 01#Portfolio\2020-PI-1\2020-IT-01
+    - Integrity tests for 2020R2 for iteration 02#Portfolio\2020-PI-1\2020-IT-02
+    - Integrity tests for 2020R2 for iteration 03#Portfolio\2020-PI-1\2020-IT-03
+    - Integrity tests for 2020R2 for iteration 04#Portfolio\2020-PI-1\2020-IT-04
+    - Integrity tests for 2020R2 for iteration 05#Portfolio\2020-PI-1\2020-IT-05
+    - Integrity tests for 2020R2 for iteration 06#Portfolio\2020-PI-1\2020-IT-06
+  Manual tests execution for 2020R2#Portfolio\2020-PI-1:
+    - Manual tests for 2020R2#Portfolio\2020-PI-1\2020-IT-05
+    - Manual tests for 2020R2#Portfolio\2020-PI-1\2020-IT-06

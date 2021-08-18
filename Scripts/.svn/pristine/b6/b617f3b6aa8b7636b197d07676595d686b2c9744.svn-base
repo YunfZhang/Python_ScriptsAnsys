@@ -1,0 +1,153 @@
+, Showstopper, Severe, Medium, Minor, TOTAL
+PR, 0, 5, 18, 23 , 46,
+CR, 1, 6, 24, 57 , 88,
+
+List of level Showstopper-Severe opened PRs:
+No, PRID,"Category"           ,"Synopsis", Severity, Status
+ 1, 6918,"Display integration","SCADE Suite + Display Android adaptor generation fails when SCADE Suite project contains imported C code ",   Severe, PR_resolved
+ 2, 7010,"Editor"             ,"dll with hooks ",   Severe, PR_integrated
+ 3, 7047,"CG Integration"     ,"Mobile: Bad coordinates computation ",   Severe, PR_resolved
+ 4, 7083,"Editor"             ,"Issues with Code output and Binary output directories ",   Severe, PR_resolved
+ 5, 7136,"Editor"             ,"Default OpenGL line width table should be updated ",   Severe, PR_entered
+
+List of level Showstopper-Severe opened CRs:
+No, CRID,"Category"           ,"Synopsis", Severity, Status
+ 1, 13638,"Reporter Display"   ,"Crash when generate SDY report with Chinese characters on Win XP ",   Severe, CR_for_modification
+ 2, 14388,"Reporter Display"   ,"Wrong images on objects which have textures ",   Severe, CR_for_modification
+ 3, 14505,"Editor"             ,"Freeze of SCADE Display when updating a specification ",   Severe, CR_integrated
+ 4, 14525,"Editor"             ,"Memory leak during SCADE Display batch updateSpecification command on huge model ",   Severe, CR_for_analysis
+ 5, 14696,"Editor"             ,"Selecting any kind of container or reference primitive systematically sets haloing for next graphical primitive to TRUE ",   Severe, CR_resolved
+ 6, 14709,"Editor"             ,"No means to detect that an OGFX model points to an unknown texture id ",   Severe, CR_for_modification
+ 7, 14744,"Installation"       ,"Not possible to launch Font Code Generator when using a license locked to a FLEXid dongle ", Showstopper, CR_for_modification
+
+
+List of level Medium-Minor opened PRs:
+No, PRID,"Category"           ,"Synopsis", Severity, Status
+ 1, 6461,"Editor"             ,""Insert Nplicator" button appear twice in Creator toolbar ",    Minor, PR_for_modification
+ 2, 6497,"Reporter Display"   ,"Some report attributes do not show correctly in Word, Chrome and Firefox ",    Minor, PR_for_analysis
+ 3, 6498,"Reporter Display"   ,"The resource table names do not show correctly in Reporter ",    Minor, PR_for_modification
+ 4, 6547,"Widget Library"     ,"Improve folder organisation for widget lib packaging ",    Minor, PR_integrated
+ 5, 6645,"CG Integration"     ,"Create and store a log file for all target adaptors in the output directory ",    Minor, PR_entered
+ 6, 6653,"Editor"             ,""Welcome to SCADE Products Help Resources" page is not displayed ",    Minor, PR_for_modification
+ 7, 6767,"Editor"             ,"Unable to open "Welcome to Esterel SCADE Products" document ",    Minor, PR_for_modification
+ 8, 6810,"User Documentation" ,"Some help PDF files are named with "-65" ",    Minor, PR_for_analysis
+ 9, 6857,"User Documentation" ,"PDF documents and Help topic can not open when installed System alone ",   Medium, PR_entered
+10, 6862,"CG Integration"     ,"[Display - Mobile Genration] Error: not enough memory allocated for mobile application ",    Minor, PR_for_analysis
+11, 6865,"Editor"             ,"object snapshots displays invisible items ",   Medium, PR_entered
+12, 6867,"User Documentation" ,"Imcomplet User Documentation about "updatespecification" ",   Medium, PR_entered
+13, 6869,"CG Integration"     ,"UV mapping + texture reference= -1 ==> invisible object ",   Medium, PR_resolved
+14, 6873,"User Documentation" ,"<Welcome to Esterel Scade Products> not-working link ",    Minor, PR_for_modification
+15, 6886,"Editor"             ,"Size of Specification Properties window sometimes seems inadequate with respect to its content ",   Medium, PR_resolved
+16, 6887,"Editor"             ,"Width of Reference Object Properties window is smaller than width of Specification Properties window ",   Medium, PR_resolved
+17, 6888,"Editor"             ,"Width of Line Width Table GUI columns are not large enough to see the column titles ",   Medium, PR_in_review
+18, 6892,"Checker"            ,"Mask Object Rule works incorrect on text area ",    Minor, PR_for_modification
+19, 6899,"Editor"             ,"Extend Visualization Area command should be accessible in the "Zoom & Fullscreen" toolbar ",    Minor, PR_resolved
+20, 6903,"Editor"             ,"Incorrect bounding box for Reference Objects with a hook (such as the Panel widget) ",   Medium, PR_for_modification
+21, 6921,"Editor"             ,"Default resource tables from File>Specification are editable ",   Medium, PR_entered
+22, 6932,"User Documentation" ,"Add in User documentation a note about the differences between an input and a constant variable ",    Minor, PR_for_modification
+23, 6940,"Editor"             ,"Extended Visualization Area: possibility to extend automatically when creating objects on or outside the boundaries ",    Minor, PR_entered
+24, 6949,"CG Integration"     ,"[Mobile Generation] The mobile generation can be blocked when the ANDROID target is not detected ",    Minor, PR_entered
+25, 6996,"Reporter Display"   ,"The US english version of the Reporter Internationalization .properties file should be distributed in the SCADE installation ",    Minor, PR_resolved
+26, 7046,"Editor"             ,"arcEllipse under filterRotationContainer: filtered angles cannot be plugged ",   Medium, PR_resolved
+27, 7054,"Editor"             ,"Pointer Id: The interactive primitive shall react for the pointer Id are identical or its pointer id is -1 ",   Medium, PR_resolved
+28, 7059,"Editor"             ,"Save As Reference Object: the file chooser displays the insert through copy check box ",    Minor, PR_for_modification
+29, 7087,"Editor"             ,"Flickering problem with filling color when creating an arc ellipse. ",    Minor, PR_resolved
+30, 7102,"Editor"             ,"Migrated from sgf to sgfx failed when sgf contains ogf ",    Minor, PR_entered
+31, 7113,"Editor"             ,"TextArea: All Chinese characters should display  ",   Medium, PR_resolved
+32, 7119,"CG Integration"     ,""Pressed" and "Released" outputs of pointer even listener should be handled the same way in Windows, Android and iOS ",    Minor, PR_for_modification
+33, 7120,"CG Integration"     ,"Code or Binary generation fails when specification path contains '&' character ",   Medium, PR_entered
+34, 7123,"CG Integration"     ,"[Display-Android Generation] Install.bat is executed after the build even if an error is raised  ",    Minor, PR_for_modification
+35, 7125,"Editor"             ,"Nplicator: "insert through copy" work bad when add Nplicator object ",   Medium, PR_entered
+36, 7127,"User Documentation" ,""Exercise 5.27:  Setting UA Page Creator ARINC 661 Options" needs to be updated ",   Medium, PR_resolved
+37, 7131,"Editor"             ,"Plug displays wrong when multiple select Translation and Rotation groups ",    Minor, PR_entered
+38, 7134,"Editor"             ,"Migrating an output variable / local from 6.4 to 6.5 ",    Minor, PR_resolved
+39, 7137,"CG Integration"     ,"Problem with texture mapping on two point shapes with bended segment ",   Medium, PR_entered
+40, 7138,"CG Integration"     ,"Line stipple is lost after the draw of a shape with polygon smooth ",   Medium, PR_resolved
+41, 7139,"Animation"          ,"Extened Visualization Area displays incorrect when Animation on Enhanced full-screen mode & Distortion full-screen mode ",   Medium, PR_entered
+
+List of level Medium-Minor opened CRs:
+No, CRID,"Category"           ,"Synopsis", Severity, Status
+ 1, 11048,"Display integration","Give access to the Locate function from the Suite/Display Mapping panel ",    Minor, CR_resolved
+ 2, 11796,"User Documentation" ,"Reference the updated ISO 1999 standard in CVK ",    Minor, CR_for_modification
+ 3, 12335,"User Documentation" ,"Mention in CVK user manual that structural code coverage should be checked on target ",    Minor, CR_for_modification
+ 4, 12724,"Editor"             ,"Rich Text:Reference object disappear when rich text object contain Repeat character and plugged on Text parameter ",   Medium, CR_resolved
+ 5, 12741,"Display integration","Scade Suite crash when launch behavior object ",    Minor, CR_pre_entered
+ 6, 12895,"User Documentation" ,"Should provide from the top-level startup page a product specific No Installation page information if this product not installed. ",    Minor, CR_pre_entered
+ 7, 12907,"CG Integration"     ,"Problem with mouse management in some Rapid Prototyper widgets ",    Minor, CR_for_modification
+ 8, 13072,"Display integration","Connect button was unavailable after Remove All Connections and again to Connect ",    Minor, CR_pre_entered
+ 9, 13463,"Reporter Display"   ,"SCADE Display report: hyperlink references shall be stable between 2 report generation ",    Minor, CR_for_modification
+10, 13546,"Editor"             ,"New object is not masked by the clip box when using the hook. ",   Medium, CR_resolved
+11, 13594,"Reporter Display"   ,"Container screenshots should be reported when container visibility is set to false ",    Minor, CR_for_modification
+12, 13611,"Animation"          ,"Add a button to open "Text Area Editing" window or "Rich Text Editing" window in animation ",    Minor, CR_resolved
+13, 13612,"Editor"             ,"Bitmap not updated on Visualization Area before reloading specification ",    Minor, CR_for_modification
+14, 13616,"Checker"            ,""Arc,circle and crown rule" doesn report error when arc angle=0 ",    Minor, CR_resolved
+15, 13617,"Editor"             ,"Variable representation value not be copied when click 'Ctrl+D'/'Ctrl+C', 'Ctrl+V' to copy a variable ",   Medium, CR_for_modification
+16, 13618,"Checker"            ,""Arc,circle and crown rule" should not work on Crown object when start angle=0 and end angle=360 ",    Minor, CR_resolved
+17, 13636,"Reporter Display"   ,"Reporter Generation: Output directory is empty after select a directory and reopen the panel ",    Minor, CR_in_review
+18, 13641,"Display integration","Resizing the display window when cosimulation in Pause mode does NOT resize display, which seems to be freezed ",   Medium, CR_resolved
+19, 13642,"Display integration","Downsizing the display does not resize well the lines ",   Medium, CR_resolved
+20, 13647,"CG Integration"     ,"If Standalone executable generation fails, do not launch the old executable ",   Medium, CR_integrated
+21, 13649,"CG Integration"     ,"Problems with standalone executable and resizing/moving ",   Medium, CR_resolved
+22, 13653,"Editor"             ,"The Texture Table "Repeat" column title is truncated (to Rep...) on some machines ",    Minor, CR_resolved
+23, 13665,"User Documentation" ,"Have a minimal explanation of A661 widgets in the User Documentation ",    Minor, CR_reworked
+24, 13672,"Editor"             ,"Sometimes the Requirements Panel visibility is not in accordance with the Requirements Panel button state ",    Minor, CR_for_modification
+25, 13688,"Editor"             ,"Copy-paste of Reference or Nplicator loose the OGFX path and the parameter plugs ",    Minor, CR_for_modification
+26, 13732,"User Documentation" ,"Add a Note about location of the Eclipse project ",    Minor, CR_entered
+27, 13742,"Editor"             ,"Abusive save of SGFX/OGFX files when modifying the traceability ",   Medium, CR_for_modification
+28, 13817,"Eclipse API"        ,"Eclipse API for display is not listed  list features in "About Eclipse Features" window in Help>About ",    Minor, CR_resolved
+29, 13851,"Editor"             ,"Adding a rotation filter group can freeze IDE ",   Medium, CR_resolved
+30, 13905,"Widget Library"     ,"performance issue on slider ",    Minor, CR_integrated
+31, 13911,"Editor"             ,"Bad cursor on Structure panel, Properties panel and menus ",    Minor, CR_for_modification
+32, 13918,"User Documentation" ,"Add user information regarding Design Checker capabilities with  SCADE Suite TCL API  ",    Minor, CR_entered
+33, 13925,"User Documentation" ,"Rework part of SCADE Suite Eclipse API Installation ",    Minor, CR_entered
+34, 13930,"Editor"             ,"Tooltip to resize object palette is not displayed ",   Medium, CR_resolved
+35, 13938,"Reporter Display"   ,"Bi-font and Text object in OneCounter Example not generated correctly ",    Minor, CR_for_modification
+36, 13942,"User Documentation" ,"Startup page resources corresponding to the product can be installed although an SCADE product is not installed. ",    Minor, CR_pre_entered
+37, 13943,"User Documentation" ,"Related page can not be displayed. ",    Minor, CR_pre_entered
+38, 13968,"Editor"             ,"Templates are missed when create new model ",    Minor, CR_resolved
+39, 14000,"User Documentation" ,"List all categories available for SCADE System ATY file ",    Minor, CR_integrated
+40, 14099,"Editor"             ,"Imported code: cannot define parameter with variable size array type ",   Medium, CR_for_modification
+41, 14237,"User Documentation" ,"Provide location paths for .tot file for Windows 7 environment ",    Minor, CR_integrated
+42, 14245,"Widget Library"     ,"Combobox - When choosing one item, the items should be wrapped up. ",   Medium, CR_integrated
+43, 14247,"Widget Library"     ,"The Radiobox seems not able to choose one item  ",   Medium, CR_integrated
+44, 14295,"CG Integration"     ,"UDP communication is needed to integrate Display (or Suite + Display) pages ",    Minor, CR_entered
+45, 14375,"Reporter Display"   ,"Reporter generates empty image when Group contains invisible object ",    Minor, CR_for_modification
+46, 14457,"Editor"             ,"When a line is focused on the data dictionnary, and the user presses up  or down, the focus goes somewhere else.  ",    Minor, CR_for_analysis
+47, 14462,"Editor"             ,"Auto completion does not work when you navigate using 'tab' key. ",    Minor, CR_for_modification
+48, 14484,"Reporter Display"   ,"Different screenshot is generated on a screenshot with font after reopen IDE ",    Minor, CR_for_modification
+49, 14493,"User Documentation" ,"Model Storage (IO) diagram should be not referenced in the Scade Language Metamodels part. ",    Minor, CR_entered
+50, 14529,"Editor"             ,"Zoom in/out for value x4 does not center on selected object ",   Medium, CR_for_modification
+51, 14553,"User Documentation" ,"Remarks regarding content of Table A.1: C subset definition ",    Minor, CR_entered
+52, 14554,"User Documentation" ,"Add one section dedicated to C compiler Optimizations management in Ref Man ",    Minor, CR_entered
+53, 14567,"Editor"             ,"SGFX contain Layer PGFX cannot be opened with other version. ",   Medium, CR_for_analysis
+54, 14623,"Editor"             ,"Modify "Active" property of Stencil mask to "Activity" ",    Minor, CR_resolved
+55, 14624,"Editor"             ,"No default value of Translate ",    Minor, CR_resolved
+56, 14639,"Editor"             ,"Support of point primitive ",    Minor, CR_for_analysis
+57, 14686,"User Documentation" ,"Add a Note for continuous creation of element from the palette ",    Minor, CR_resolved
+58, 14697,"Editor"             ,"widget library template: texture table path shall use env var instead of being absolute ",   Medium, CR_for_modification
+59, 14698,"User Documentation" ,"SC-UM-6X: Missing hyperlink on Figure7.15 in Generating Reports about Model Comp.  ",    Minor, CR_resolved
+60, 14699,"Editor"             ,"Creating a new specification of type "Widget Library" should give access to all the object examples in the Palette ",    Minor, CR_for_modification
+61, 14705,"User Documentation" ,"The values of escape code for Rich Text should be easier to find ",    Minor, CR_resolved
+62, 14714,"Editor"             ,"Wrong properties displayed after moving an object ",    Minor, CR_for_modification
+63, 14719,"Reporter Display"   ,"Images of Nplicator objects are not generated in Report (HTML and RTF) ",   Medium, CR_for_analysis
+64, 14729,"Editor"             ,"Structure Tree is renamed when a variable in the dictionnary is edited. ",   Medium, CR_for_modification
+65, 14732,"Editor"             ,"Loss of data when using unicode characters ",   Medium, CR_for_analysis
+66, 14733,"User Documentation" ,"In the documentation (sgluWriteRichText), it is not specified that escape sequences have to start with an ASCII escape character \x1B ",    Minor, CR_resolved
+67, 14734,"Editor"             ,"[Rich Text] Add the possibility to chose "no color" as background color ",    Minor, CR_for_analysis
+68, 14737,"User Documentation" ,"[QTE] Missing documentation about SSM::set and SSM::alias commands for direct array index access ",   Medium, CR_resolved
+69, 14738,"User Documentation" ,"Remove compatibility with Framemaker from LifeCycle User manual ",    Minor, CR_resolved
+70, 14749,"User Documentation" ,"Missing on-line help about option "User-provided sensor declaration" of the Simulink Wrapper ",   Medium, CR_resolved
+71, 14763,"CG Integration"     ,"Standalone executable: Capability to lock position and size in .ini file ",    Minor, CR_in_review
+72, 14764,"CG Integration"     ,"Standalone executable: Capability to create a window with no title bar or frame decoration ",    Minor, CR_in_review
+73, 14766,"Editor"             ,""Save" and "Save As" dialog box title is "Open" ",    Minor, CR_for_modification
+74, 14788,"Font Management"    ,"Remove Chinese26 from default font table + add new fonts in distribution ",    Minor, CR_resolved
+75, 14793,"Editor"             ,"stt file is not updated when migrate the sgfx file ",    Minor, CR_for_analysis
+76, 14805,"Editor"             ,"Migration on text and text area failed ",   Medium, CR_for_analysis
+77, 14811,"Editor"             ,"Synchronize variable action does not work when variables are sorted by name in the dictionary ",   Medium, CR_for_modification
+78, 14817,"CG Integration"     ,"[Mobile] Option to specify orientation of generated application (horizontal/vertical) ",    Minor, CR_entered
+79, 14829,"Reporter Display"   ,"Issues on screenshots of generating report in batch mode ",    Minor, CR_entered
+80, 14830,"Reporter Display"   ,"Some screenshots are missing in reporter ",   Medium, CR_entered
+81, 5913,"User Documentation" ,"Error "font" is raised in the LibrariesManual_SC-LM-60.pdf ",    Minor, CR_resolved
+
+
+

@@ -1,0 +1,69 @@
+Database, ID, Level, Product, Status, Synopsis
+
+PR_ET_SCADE,PR-735,Medium,DISPLAY-IDE,Editor,PR_integrated,Refresh in visualization area failed when delete the object after animation 
+PR_ET_SCADE,PR-770,Minor,DISPLAY-IDE,User Documentation,PR_for_modification,Tackle the subject of Managing several mouses in the the Getting Started 
+PR_ET_SCADE,PR-3303,Severe,SUITE-IDE,Display integration,PR_integrated,The modifier output value keeps 0 
+PR_ET_SCADE,PR-3341,Severe,SUITE-IDE,Display integration,PR_for_modification,SCADE Display simulation settings default value 
+PR_ET_SCADE,PR-3385,Medium,SUITE-IDE,Display integration,PR_in_review,Widgets: reset doesn't reset the widgets plugs values 
+PR_ET_SCADE,PR-3410,Medium,SUITE-IDE,Rapid Prototyper,PR_integrated,Bad output value when Delta>Max of Slider widget library 
+PR_ET_SCADE,PR-3423,Minor,SUITE-IDE,Display integration,PR_entered,Scade Suite crash when launch behavior object 
+PR_ET_SCADE,PR-3436,Medium,SUITE-IDE,Rapid Prototyper,PR_for_analysis,launching simulation with rapid proto takes 50% of CPU 
+PR_ET_SCADE,PR-3439,Minor,SUITE-IDE,Display integration,PR_for_analysis,Review the packaging of the standalone executable generation 
+PR_ET_SCADE,PR-3525,Medium,DISPLAY-IDE,Editor,PR_integrated,SCADE Display IDE disappeared when creating a specification in SGL mode 
+PR_ET_SCADE,PR-3527,Minor,DISPLAY-IDE,Font Management,PR_integrated,Bad display of Import button in Font Editor 
+PR_ET_SCADE,PR-3550,Medium,SUITE-IDE,Rapid Prototyper,PR_integrated,Using relative path for Rapid Prototyper model in the etp file 
+PR_ET_SCADE,PR-3571,Severe,DISPLAY-IDE,User Documentation,PR_integrated,Online Help Memory issue 
+PR_ET_SCADE,PR-3584,Medium,SUITE-IDE,Rapid Prototyper,PR_for_modification,Crash while performing a Run with a configuration for Standalone executable generation 
+PR_ET_SCADE,PR-3601,Medium,DISPLAY-IDE,Reporter,PR_integrated,Not possible to generate co-Report when the Suite model contains private operator 
+PR_ET_SCADE,PR-3611,Minor,SUITE-IDE,Rapid Prototyper,PR_integrated,Remove the blank in the widget name 
+PR_ET_SCADE,PR-3612,Minor,SUITE-IDE,Rapid Prototyper,PR_integrated,Rename the parameter name and the plug name to follow the SRS 
+PR_ET_SCADE,PR-3616,Medium,DISPLAY-IDE,Reporter,PR_integrated,"Can not find behavior object" message raise when generated report 
+PR_ET_SCADE,PR-3617,Medium,DISPLAY-IDE,Reporter,PR_integrated,The output parameter should not be generated in the report 
+PR_ET_SCADE,PR-3621,Severe,SUITE-IDE,Display integration,PR_integrated,Build failed on the model when Char, Enum, Real^2 in behavior 
+PR_ET_SCADE,PR-3623,Medium,DISPLAY-IDE,Editor,PR_integrated,The removed plugs still exist after refresh behavior 
+PR_ET_SCADE,PR-3630,Minor,DISPLAY-IDE,Checker,PR_integrated,"Mask object rule" sometimes cannot detect the error 
+PR_ET_SCADE,PR-3632,Minor,DISPLAY-IDE,Animation,PR_integrated,The "8" of font line width in pattern cannot work 
+PR_ET_SCADE,PR-3651,Medium,DISPLAY-IDE,Editor,PR_integrated,The Save function is still available after Undo/Redo modificiation 
+PR_ET_SCADE,PR-3688,Medium,SUITE-IDE,Rapid Prototyper,PR_for_modification,open dialog propose always sgf extension 
+PR_ET_SCADE,PR-3693,Minor,SUITE-IDE,Rapid Prototyper,PR_integrated,Double-click in Windows Explorer on .SGF file created with Rapid Prototyper launches SCADE Display instead of Rapid Proto 
+PR_ET_SCADE,PR-3698,Minor,DISPLAY-IDE,Reporter,PR_integrated,circle area: Different radius values displayed in Editor and in Reporter 
+PR_ET_SCADE,PR-3699,Minor,DISPLAY-IDE,Editor,PR_integrated,Bad refresh on objects with clip plane when there are in conditional group  
+PR_ET_SCADE,PR-3705,Minor,SUITE-IDE,Display integration,PR_integrated,Raise error when SCADE Display Co generation selected and no SDY panel 
+PR_ET_SCADE,PR-3711,Medium,DISPLAY-IDE,Reporter,PR_integrated,Bad reference container source is generated in the report in batch mode 
+PR_ET_SCADE,PR-3712,Medium,DISPLAY-IDE,Reporter,PR_integrated,"null" path is used when generate report with unselect optional option in batch mode  
+PR_ET_SCADE,PR-3714,Medium,DISPLAY-IDE,Reporter,PR_integrated,File not found when generate RTF report in batch mode 
+PR_ET_SCADE,PR-3715,Medium,SUITE-IDE,Display integration,PR_integrated,Link to Rapid Protoyper report in SCADE Suite Report 
+PR_ET_SCADE,PR-3716,Medium,DISPLAY-IDE,Editor,PR_integrated,The Workspaces from 6.1.2 to 6.2 should be updated 
+PR_ET_SCADE,PR-3717,Medium,DISPLAY-IDE,Editor,PR_integrated,The last point of ShapeArea cannot move 
+PR_ET_SCADE,PR-3726,Minor,SUITE-IDE,Rapid Prototyper,PR_integrated,Add the possibility to create a new Rapid Prototyper panel from Insert Menu 
+PR_ET_SCADE,PR-3737,Minor,SUITE-IDE,Display integration,PR_integrated,Cannot move knob widget when select the knob during co-simulation 
+PR_ET_SCADE,PR-3741,Medium,SUITE-IDE,Rapid Prototyper,PR_for_modification,The display of AnalogCounter is bad during co-simulation when MAX<=Min 
+PR_ET_SCADE,PR-3746,Medium,SUITE-IDE,Rapid Prototyper,PR_for_modification,When value=Max, the Gauge widget should be full 
+PR_ET_SCADE,PR-3748,Medium,DISPLAY-IDE,Editor,PR_integrated,Refresh on behavior object should delete the removed input plugs and output plugs 
+PR_ET_SCADE,PR-3749,Medium,DISPLAY-IDE,Editor,PR_integrated,Initial value of a behavior is not taken into account in an ogf 
+PR_ET_SCADE,PR-3753,Severe,SUITE-IDE,Display integration,PR_integrated,SDY co-generation: Tcl error on model containing output plug string connection 
+PR_ET_SCADE,PR-3755,Medium,SUITE-IDE,Display integration,PR_for_modification,Text cannot be seen during co-simulation on ListBox widget 
+PR_ET_SCADE,PR-3759,Minor,DISPLAY-IDE,Editor,PR_for_modification,Temporary loss of scroll bar of visualization area in SCADE Display 
+PR_ET_SCADE,PR-3760,Medium,DISPLAY-IDE,Editor,PR_for_modification,Generated code from IDE is not generated in properties defined output directory 
+PR_ET_SCADE,PR-3761,Minor,SUITE-IDE,Rapid Prototyper,PR_entered,SinusSignal widget has input plugs 
+PR_ET_SCADE,PR-3762,Minor,SUITE-IDE,Rapid Prototyper,PR_entered,Rectangular LED color is pluggable 
+
+CR_SCADE,CR-7261,Medium,SUITE-IDE,Display integration,CR_for_modification,Display integration: Read-only mapping file is not handled 
+CR_SCADE,CR-7549,Minor,SUITE-IDE,Display integration,CR_for_modification,Add more feedback in the Output window during build of Co-Simu with SCADE Display 
+CR_SCADE,CR-7602,Severe,DISPLAY-IDE,Reporter,CR_for_modification,Wrong SCADE Display Mappings tables for plugs connected to structure field or array element 
+CR_SCADE,CR-10565,Minor,DISPLAY-IDE,User Documentation,CR_for_analysis,User Manual: "Transform toolbar" should be renamed  
+CR_SCADE,CR-10924,Minor,DISPLAY-IDE,User Documentation,CR_for_modification,Missing check of layers and code generation in the SDY Getting Started 
+CR_SCADE,CR-10957,Severe,DISPLAY-IDE,Editor,CR_integrated,IDE freezes when deleting graphic object under conditional group 
+CR_SCADE,CR-11010,Minor,DISPLAY-IDE,Checker,CR_integrated,Update "Object Visibility Rule" Design rule for unplugged graphic object visibility 
+CR_SCADE,CR-11121,Showstopper,SUITE-IDE,Display integration,CR_integrated,Cosimulation build fails due to "significance length" option 
+CR_SCADE,CR-11134,Minor,DISPLAY-IDE,Editor,CR_integrated,Wrong error message when inserting bitmap upper than 1024x1024 
+CR_SCADE,CR-11154,Medium,DISPLAY-IDE,Reporter,CR_integrated,Background checkerboard texture is reported 
+CR_SCADE,CR-11163,Medium,DISPLAY-IDE,User Documentation,CR_integrated,Missing documentation about the Reporter batch command  
+CR_SCADE,CR-11165,Minor,DISPLAY-IDE,Reporter,CR_integrated,Inconstistency in the font size of "Plug Name" column in the mapping plug table 
+CR_SCADE,CR-11173,Severe,DISPLAY-IDE,Reporter,CR_integrated,Not possible to co-report SS/SDY en batch if output file directory is not the project one 
+CR_SCADE,CR-11180,Severe,SUITE-IDE,Display integration,CR_integrated,Cosimulation build fails due to "pragma name" property usage 
+CR_SCADE,CR-11181,Medium,DISPLAY-IDE,Checker,CR_pre_entered,Failed to correct error with "rectangle rule" when the rectangle is plugged same variable on first and second point 
+CR_SCADE,CR-11182,Medium,DISPLAY-IDE,CM Gateway,CR_pre_entered,Bad message raise when check-in/check-out with conditional group as context object 
+CR_SCADE,CR-11185,Minor,DISPLAY-IDE,User Documentation,CR_integrated,Add a note to generate font table DLL after modification   
+CR_SCADE,CR-11201,Severe,DISPLAY-IDE,Editor,CR_for_modification,SCADE Display editor closes if license is lost 
+

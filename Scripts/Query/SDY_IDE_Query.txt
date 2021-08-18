@@ -1,0 +1,34 @@
+
+Minor PRs:
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.2') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Minor'))
+
+Medium PRs
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.2') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Medium'))
+
+Hight PRs
+(cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (product_version='6.2') and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Showstopper') or (severity='Severe'))
+
+all open PRs
+((cvtype='problem') and (crstatus!='PR_concluded') and (crstatus!='PR_tested') and (crstatus!='PR_closed_by_CR') and ((product_version='6.4')) and (crstatus!='PR_duplicate') and (crstatus!='PR_for_CR_creation') and (crstatus!='PR_rejected') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or (product_name='SCADE LifeCycle' and (product_subsys='RM Gateway' or product_subsys='RM Display Coupling') or product_subsys='Reporter Common' or product_subsys='Reporter Display' or product_subsys='User Documentation')))
+
+
+high CRs
+(cvtype='problem') and (crstatus!='CR_deferred') and (crstatus!='CR_concluded') and (crstatus!='CR_rejected') and (crstatus!='CR_duplicate') and (crstatus!='CR_tested') and (crstatus!='CR_obsolete') and (crstatus!='CR_migrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Showstopper') or (severity='Severe'))
+
+Medium CRs
+(cvtype='problem') and (crstatus!='CR_deferred') and (crstatus!='CR_concluded') and (crstatus!='CR_rejected') and (crstatus!='CR_duplicate') and (crstatus!='CR_tested') and (crstatus!='CR_obsolete') and (crstatus!='CR_migrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Medium'))
+
+Minor CRs
+(cvtype='problem') and (crstatus!='CR_deferred') and (crstatus!='CR_concluded') and (crstatus!='CR_rejected') and (crstatus!='CR_duplicate') and (crstatus!='CR_tested') and (crstatus!='CR_obsolete') and (crstatus!='CR_migrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling')))) and ((severity='Minor'))
+
+CR_deferred CRS
+(cvtype='problem') and (crstatus='CR_deferred') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling'))))
+
+all open CRs
+(cvtype='problem') and (crstatus!='CR_concluded') and (crstatus!='CR_deferred') and (crstatus!='CR_rejected') and (crstatus!='CR_duplicate') and (crstatus!='CR_tested') and (crstatus!='CR_obsolete') and (crstatus!='CR_migrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or (product_name='SCADE LifeCycle' and (product_subsys='RM Gateway' or product_subsys='RM Display Coupling') or product_subsys='Reporter Common' or product_subsys='Reporter Display' or product_subsys='User Documentation')))
+
+Integration PRs:
+(cvtype='problem') and (crstatus ='PR_integrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling'))))
+
+Integration CRs
+(cvtype='problem') and (crstatus ='CR_integrated') and ((product_name='DISPLAY-IDE') or ((product_name='SUITE-IDE') and ((product_subsys='Rapid Prototyper') or (product_subsys='Display integration'))) or ((product_name='SCADE RM Gateway') and ((product_subsys='SCADE Display Coupling'))))
